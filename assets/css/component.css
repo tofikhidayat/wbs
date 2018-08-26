@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: lucida_bold;
+  src: url("../fonts/lucida_bold.ttf"); }
+@font-face {
+  font-family: knocout;
+  src: url(../fonts/Knockout-HTF70-FullWelterwt.otf); }
+@font-face {
+  font-family: ninbulsanreg;
+  src: url(../fonts/NimbusSanL-Reg.otf); }
+@font-face {
+  font-family: ninbulsanbold;
+  src: url(../fonts/NimbusSanL-Bol.otf); }
+.ninbulsan-bold {
+  font-family: ninbulsanbold; }
+
+.ninbulsan {
+  font-family: ninbulsanreg; }
+
+.knockout {
+  font-family: knocout; }
+
+.title, .knockout {
+  font-family: knocout;
+  font-size: 55px;
+  letter-spacing: 1.5px;
+  color: #010022; }
+
+.btn-gradient {
+  background-image: linear-gradient(248deg, #0b0a34, #4e49cb); }
+
+.text-to-icon {
+  padding-bottom: 0em !important;
+  margin-bottom: 0em !important; }
+
+.bg-purple {
+  background: #4D4ACB;
+  color: #fff; }
+
+.bg-violet {
+  background-color: #0B0A34;
+  color: #fff; }
+
+.text-dark {
+  color: #040220; }
+
+.btn-custom {
+  padding: 10px 30px !important;
+  border: 0px;
+  color: #fff !important;
+  border-radius: unset !important; }
+
+.lucida_bold {
+  font-family: lucida_bold; }
+
+.rounded-custom {
+  border-radius: 2.5px !important;
+  overflow: hidden; }
+
+.btn {
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out; }
+
+.btn-select {
+  background-image: linear-gradient(89deg, #4e49cb, #1d1b61);
+  box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
+  color: #fff; }
+  .btn-select:hover {
+    background-image: linear-gradient(89deg, #3F3CA6, #1A1854);
+    box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
+    color: #1d1b61; }
+
+.btn-select-back {
+  background-image: linear-gradient(89deg, #ffffff, #e7e6f6);
+  box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
+  color: #1d1b61;
+  border: 0; }
+  .btn-select-back:hover {
+    background-image: linear-gradient(89deg, #4e49cb, #1d1b61);
+    box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border: 0; }
+
+.btn-select-back-rotate {
+  background-image: linear-gradient(89deg, #e7e6f6, #ffffff);
+  box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
+  color: #1d1b61;
+  border: 0; }
+  .btn-select-back-rotate:hover {
+    background-image: linear-gradient(89deg, #BCBBC9, #EBEBEB);
+    box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
+    color: #1d1b61;
+    border: 0; }
+
+.bg-primary {
+  background-color: #0B0A34 !important; }
+
+.bg-headline {
+  background-color: #1B1871 !important; }
+
+.bg-gradient {
+  background-image: linear-gradient(89deg, #4e49cb, #1d1b61); }
+
+.bg-gradient-back {
+  background-image: linear-gradient(89deg, #ffffff, #e7e6f6); }
+
+.btn-transparent {
+  background: transparent !important; }
+
+.text-patern {
+  font-size: 25px;
+  font-weight: 600; }
+
+.text-patern-desk {
+  font-size: 25px;
+  font-weight: 500; }
+
+.primary-color {
+  color: #717C97; }
+
+.col-setting-5 {
+  width: 25%;
+  padding: 30px 30px; }
+
+.transition-slow {
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  transition: 0.3s ease; }
+
+.transition-slow-in-out {
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out; }
+
+.image-over-left-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+.image-over-right-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+.image-over-left-top {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.image-over-right-top {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.normal-hover:hover {
+  color: #fff; }
+
+.normal-hover-back:hover {
+  color: #1D1B61; }
+
+.btn-carousel {
+  margin-left: 10px;
+  background: linear-gradient(89deg, #4e49cb, #1d1b61);
+  border: 2px solid  #4e49cb;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  transition: 0.2s ease; }
+  .btn-carousel:hover {
+    background: transparent;
+    color: #4e49cb; }
+
+/*# sourceMappingURL=component.css.map */
