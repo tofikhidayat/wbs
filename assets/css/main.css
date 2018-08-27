@@ -106,14 +106,14 @@ header {
         -moz-transform: rotate(-85deg); }
 
 .banner {
-  background-image: url(../images/bg.jpg);
+  background-image: url(../images/bg.svg);
   margin: center;
   padding-top: 150px;
   background-size: cover;
   background-repeat: no-repeat; }
   .banner .banner-canvas {
     min-height: 700px;
-    background-image: url(../images/bg-landing-world.png);
+    background-image: url(../images/bg-landing-world.svg);
     background-position: center;
     background-size: 50% auto;
     background-repeat: no-repeat;
@@ -226,7 +226,7 @@ header {
 
 .speaker {
   padding: 80px 0;
-  background-image: url(../images/Group15bg-tittle.png); }
+  background-image: url(../images/Group15bg-tittle.svg); }
   .speaker .canvas {
     background-size: auto 100%;
     background-position: top right;
@@ -267,7 +267,7 @@ header {
 
 section.about {
   margin-top: -180px;
-  background-image: url(../images/acc-kanan.png);
+  background-image: url(../images/acc-kanan.svg);
   background-size: auto 500px;
   background-position: right;
   background-repeat: no-repeat; }
@@ -319,7 +319,7 @@ section.previous-event {
   section.previous-event h1 {
     color: #010022 !important; }
   section.previous-event .canvas {
-    background-image: url(../images/acc-kiri.png);
+    background-image: url(../images/acc-kiri.svg);
     background-position: center left;
     background-size: auto 300px;
     background-repeat: no-repeat; }
@@ -651,7 +651,7 @@ section.attend-list {
           letter-spacing: 1.2; }
 
 section.become {
-  background-image: url(..images/acc-kiri-bawah.png);
+  background-image: url(..images/acc-kiri-bawah.svg);
   background-position: bottom left;
   overflow: hidden;
   margin-top: -150px; }
@@ -679,7 +679,7 @@ section.become {
       padding: 18px 0;
       letter-spacing: 1.5px; }
     section.become .card-become.card-1 {
-      background-image: url(../images/no-shadow.png);
+      background-image: url(../images/no-shadow.svg);
       background-size: cover;
       background-position: center;
       width: 100%;
@@ -693,7 +693,7 @@ section.become {
         font-family: knocout;
         color: #424089; }
     section.become .card-become.card-2 {
-      background-image: url(../images/card-02.png);
+      background-image: url(../images/card-02.svg);
       background-size: cover;
       background-position: center;
       width: 100%;
@@ -747,7 +747,7 @@ section.become {
     font-size: 12px; }
 
 section.general {
-  background-image: url(../images/bg-kanan.png);
+  background-image: url(../images/bg-kanan.svg);
   background-position: top right;
   background-size: auto 100%;
   background-repeat: no-repeat; }
@@ -782,7 +782,7 @@ section.subscribe {
     top: -119px;
     left: 0; }
   section.subscribe .canvas-bg {
-    background-image: url(../images/bg.png);
+    background-image: url(../images/bg.svg);
     background-position: center;
     background-size: 100% 100%;
     padding: 100px 0; }
@@ -821,7 +821,7 @@ section.subscribe {
         padding: 16px 0; }
 
 section.blog {
-  background-image: url(../images/acc.png);
+  background-image: url(../images/acc.svg);
   background-size: 450px 400px;
   background-repeat: no-repeat;
   background-position: bottom right; }
@@ -880,7 +880,7 @@ section.blog {
     display: block; }
 
 footer {
-  background-image: url(../images/Footer-bg.png);
+  background-image: url(../images/Footer-bg.svg);
   background-position: bottom right;
   background-size: auto 100%;
   overflow: hidden;
