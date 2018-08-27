@@ -52,7 +52,7 @@
 .bg-purple
 {
 	background: #4D4ACB;
-	color: #fff;
+	color: #fff !important;
 }
 
 .bg-violet{
@@ -242,5 +242,129 @@
 		&:hover{
 		background: transparent;
 		color:  #4e49cb;
+	}
+}
+
+
+footer{
+	.navbar-brand{
+	.logo
+	{
+		background: #302E53 !important;
+		border:1.48px solid #302E53 !important;
+		color: #fff !important;
+		.logo-name{
+			color: #fff;
+		}
+	}
+	.logo-chevrom{
+		color: #fff;
+		&:before{
+			background: #4B4C6E !important;
+		}
+	}
+		.logo-list
+		{
+
+			ul{
+				top: -6px;
+				background: #302E53 !important;
+				li{
+					background: #302E53 !important;
+					color: #fff;
+					&:hover{
+						color: #CCCCCC;
+					}
+				}
+			}
+		}
+}}
+
+
+.navbar-brand
+{
+	position: relative;
+	.logo
+	{
+		position: relative;
+		z-index: 99999;
+		border:1.48px solid #2C2F5E !important;
+		padding: 0px 10px !important;
+		border-radius: 1px;
+		font-weight: bold;
+		letter-spacing: 1.1px;
+		padding-top: 7px !important;
+		color: #0D0C33 !important;
+		&:hover +  .logo-list{
+			display: block;
+		}
+		.logo-name
+		{
+			font-family: $knockout;
+			font-size: 19px;
+		}
+		.logo-chevrom 
+		{
+			border-left: unset !important;
+			position: relative;
+			&:before{
+				content: " ";
+				position: absolute;
+				left: -5px;
+				height: 20px;
+				top: 2px;
+				width: 2px;
+					background: #E4E4E4;
+			}
+			margin-left: 15px;
+				i{
+					font-size: 14px;
+			font-weight: bold;
+				}
+				i{
+					position: relative;
+					top: -5px;
+				}
+		}
+	}
+	.logo-list
+	{
+		display: none;
+		position: absolute;
+		top: 44px;
+		background: transparent;
+		left: 0;
+		width: 100%;
+		padding-bottom: 0px !important;
+		&:hover{
+				display: block;
+			}
+		
+		ul{
+			padding-top: 5px;
+			
+			padding-bottom: 0px !important;
+			@include box-shadow(0px 3px 5px 0px rgba(0,0,0,.08));
+			background: #fff;
+			li{
+				background: #fff;
+				font-family: $ninbulsan-bold;
+				&:last-child{
+					border-bottom:1.5px solid #0D0C33;
+					border-bottom-right-radius: 2px;
+					border-bottom-left-radius: 2px;
+					padding-bottom: 10px;
+
+				}
+				//border-bottom: 1px solid #D9D9D9;
+				padding: 4px 10px;
+				list-style: none;
+				@include transition(.2s ease);
+				color: #0D0C33;
+				&:hover{
+					color:#2F2D73; 
+				}
+			}
+		}
 	}
 }

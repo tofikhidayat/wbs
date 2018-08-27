@@ -15,7 +15,7 @@ section {
 
 header {
   position: fixed;
-  z-index: 99999;
+  z-index: 99999999999999999999999;
   width: 100%; }
   header.scroll nav {
     padding: 13px 0 !important;

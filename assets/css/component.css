@@ -38,7 +38,7 @@
 
 .bg-purple {
   background: #4D4ACB;
-  color: #fff; }
+  color: #fff !important; }
 
 .bg-violet {
   background-color: #0B0A34;
@@ -183,5 +183,97 @@
   .btn-carousel:hover {
     background: transparent;
     color: #4e49cb; }
+
+footer .navbar-brand .logo {
+  background: #302E53 !important;
+  border: 1.48px solid #302E53 !important;
+  color: #fff !important; }
+  footer .navbar-brand .logo .logo-name {
+    color: #fff; }
+footer .navbar-brand .logo-chevrom {
+  color: #fff; }
+  footer .navbar-brand .logo-chevrom:before {
+    background: #4B4C6E !important; }
+footer .navbar-brand .logo-list ul {
+  top: -6px;
+  background: #302E53 !important; }
+  footer .navbar-brand .logo-list ul li {
+    background: #302E53 !important;
+    color: #fff; }
+    footer .navbar-brand .logo-list ul li:hover {
+      color: #CCCCCC; }
+
+.navbar-brand {
+  position: relative; }
+  .navbar-brand .logo {
+    position: relative;
+    z-index: 99999;
+    border: 1.48px solid #2C2F5E !important;
+    padding: 0px 10px !important;
+    border-radius: 1px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    padding-top: 7px !important;
+    color: #0D0C33 !important; }
+    .navbar-brand .logo:hover + .logo-list {
+      display: block; }
+    .navbar-brand .logo .logo-name {
+      font-family: knocout;
+      font-size: 19px; }
+    .navbar-brand .logo .logo-chevrom {
+      border-left: unset !important;
+      position: relative;
+      margin-left: 15px; }
+      .navbar-brand .logo .logo-chevrom:before {
+        content: " ";
+        position: absolute;
+        left: -5px;
+        height: 20px;
+        top: 2px;
+        width: 2px;
+        background: #E4E4E4; }
+      .navbar-brand .logo .logo-chevrom i {
+        font-size: 14px;
+        font-weight: bold; }
+      .navbar-brand .logo .logo-chevrom i {
+        position: relative;
+        top: -5px; }
+  .navbar-brand .logo-list {
+    display: none;
+    position: absolute;
+    top: 44px;
+    background: transparent;
+    left: 0;
+    width: 100%;
+    padding-bottom: 0px !important; }
+    .navbar-brand .logo-list:hover {
+      display: block; }
+    .navbar-brand .logo-list ul {
+      padding-top: 5px;
+      padding-bottom: 0px !important;
+      box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.08);
+      -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.08);
+      -o-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.08);
+      -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.08);
+      -ms-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.08);
+      background: #fff; }
+      .navbar-brand .logo-list ul li {
+        background: #fff;
+        font-family: ninbulsanbold;
+        padding: 4px 10px;
+        list-style: none;
+        -webkit-transition: 0.2s ease;
+        -moz-transition: 0.2s ease;
+        -o-transition: 0.2s ease;
+        -ms-transition: 0.2s ease;
+        transition: 0.2s ease;
+        color: #0D0C33; }
+        .navbar-brand .logo-list ul li:last-child {
+          border-bottom: 1.5px solid #0D0C33;
+          border-bottom-right-radius: 2px;
+          border-bottom-left-radius: 2px;
+          padding-bottom: 10px; }
+        .navbar-brand .logo-list ul li:hover {
+          color: #2F2D73; }
 
 /*# sourceMappingURL=component.css.map */
