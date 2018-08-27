@@ -34,8 +34,8 @@
 }
 .title , .knockout{
 	font-family: knocout;
-	font-size: 55px;
-	letter-spacing: 1.5px;
+	font-size: 60px;
+	 letter-spacing: 0.2px;
 	color: #010022;
 }
 
@@ -93,7 +93,7 @@
 	{
 		 background-image: linear-gradient(89deg, #3F3CA6, #1A1854);
   box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
-  color: #1d1b61;
+  color: #fff;
 
 	}
 }
@@ -110,9 +110,9 @@
 	 
 	&:hover
 	{
-		background-image: linear-gradient(89deg, #4e49cb, #1d1b61);
+		background-image: linear-gradient(89deg, #ffffff, #D7D5E6);
 	 box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
-	 color: #fff;
+	 color: #1d1b61;
 	   border:0;
 
 	}
@@ -131,7 +131,7 @@
 	 
 	&:hover
 	{
-			 background-image: linear-gradient(89deg, #BCBBC9 ,#EBEBEB);
+			 background-image: linear-gradient(89deg, #D7D5E6 ,#FFFFFF);
 	 box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
 	 color: #1d1b61;
 	   border:0;
