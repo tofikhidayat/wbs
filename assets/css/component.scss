@@ -368,3 +368,7 @@ footer{
 		}
 	}
 }
+.uppercase
+{
+	@include text-transform(uppercase);
+}

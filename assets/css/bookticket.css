@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+section.banner {
+  background-image: url(../images/Bg-header.jpg);
+  min-height: 800px;
+  clear: both;
+  max-height: 800px;
+  padding-top: 150px !important; }
+  section.banner .drop-tickwet {
+    padding: 0px 0 70px 0  !important; }
+  section.banner .dropdown-lang {
+    position: relative;
+    z-index: 9999;
+    font-family: ninbulsanreg;
+    cursor: pointer;
+    clear: both;
+    min-height: 45px;
+    font-size: 14px;
+    color: #fff !important; }
+    section.banner .dropdown-lang:hover {
+      background: #7D7DD1; }
+      section.banner .dropdown-lang:hover > .drpodown-content {
+        display: block; }
+    section.banner .dropdown-lang span {
+      color: #fff; }
+    section.banner .dropdown-lang i {
+      font-size: 13px;
+      color: #fff; }
+    section.banner .dropdown-lang img {
+      max-height: 20px; }
+    section.banner .dropdown-lang .drpodown-content {
+      position: absolute;
+      top: 45px;
+      z-index: 999999999999999;
+      display: none;
+      width: 100%;
+      left: 0; }
+      section.banner .dropdown-lang .drpodown-content ul {
+        padding-top: 2px;
+        background: #7D7DD1;
+        border-radius: 2px;
+        clear: both;
+        overflow: hidden;
+        position: relative;
+        z-index: 99999;
+        width: 100%;
+        padding-bottom: 10px; }
+        section.banner .dropdown-lang .drpodown-content ul li {
+          list-style: none;
+          width: 100%;
+          overflow: hidden;
+          padding: 5px 0; }
+  section.banner h1 {
+    color: #fff; }
+  section.banner .banner-subtitle span {
+    font-family: ninbulsanreg;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #cacfe0; }
+  section.banner a {
+    text-decoration: none;
+    color: #868BA0; }
+  section.banner i {
+    font-size: 12px;
+    position: relative;
+    color: #8e94a9; }
+  section.banner .text {
+    font-size: 14px;
+    font-family: ninbulsanbold; }
+  section.banner .banner-list {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    section.banner .banner-list h1 {
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.02;
+      letter-spacing: normal;
+      color: #010022;
+      text-transform: uppercase;
+      -webkit-text-transform: uppercase;
+      -o-text-transform: uppercase;
+      -ms-text-transform: uppercase;
+      -moz-text-transform: uppercase;
+      font-family: knocout; }
+    section.banner .banner-list:nth-child(2n+0) {
+      padding-left: 30px;
+      padding-right: 0px; }
+    section.banner .banner-list:nth-child(1n+0) {
+      padding-right: 30px;
+      padding-left: 0px; }
+    section.banner .banner-list .wrap {
+      min-height: 300px;
+      max-height: 300px;
+      background-image: url(../images/bg-seprul.png);
+      background-color: #fff;
+      background-size: cover;
+      background-position: center;
+      padding: 40px;
+      box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+      -o-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+      -ms-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1); }
+      section.banner .banner-list .wrap .banner-content {
+        padding-top: 20px;
+        height: 200px; }
+        section.banner .banner-list .wrap .banner-content p {
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.8;
+          letter-spacing: normal;
+          text-align: justify;
+          color: #475170;
+          font-family: ninbulsanreg; }
+  section.banner .banner-list-dump {
+    padding-top: 130px; }
+
+section.tab-plan {
+  padding-top: 250px !important; }
+  section.tab-plan .canvas {
+    clear: both;
+    padding: 0; }
+  section.tab-plan .tab-plan {
+    clear: both;
+    width: 100%;
+    padding: 10px 0 15px 0;
+    border-bottom: 2px solid #e5eafb; }
+    section.tab-plan .tab-plan li {
+      padding-left: 24px;
+      padding-right: 24px; }
+      section.tab-plan .tab-plan li:first-child {
+        padding-left: 0px; }
+      section.tab-plan .tab-plan li:last-child {
+        padding-right: 0px; }
+      section.tab-plan .tab-plan li a {
+        background: transparent !important;
+        font-family: ninbulsanbold;
+        letter-spacing: 1.2px;
+        color: #757d95;
+        padding-left: 0px;
+        padding-right: 0px;
+        position: relative;
+        text-transform: uppercase;
+        -webkit-text-transform: uppercase;
+        -o-text-transform: uppercase;
+        -ms-text-transform: uppercase;
+        -moz-text-transform: uppercase;
+        font-size: 14px; }
+        section.tab-plan .tab-plan li a.active {
+          letter-spacing: 1.2px;
+          color: #010022; }
+          section.tab-plan .tab-plan li a.active:after {
+            content: "";
+            bottom: -17px !important;
+            position: absolute;
+            left: 0;
+            background: #010022;
+            height: 3px;
+            width: 100%;
+            display: block; }
+  section.tab-plan .tab-content {
+    font-family: ninbulsanreg; }
+    section.tab-plan .tab-content h1 {
+      font-size: 50px; }
+    section.tab-plan .tab-content .subcode span {
+      color: #475170; }
+    section.tab-plan .tab-content .label-price {
+      color: #475170; }
+      section.tab-plan .tab-content .label-price span i {
+        font-weight: 350;
+        font-size: 28px; }
+      section.tab-plan .tab-content .label-price .price {
+        font-size: 40px;
+        color: #010022;
+        font-weight: 550; }
+      section.tab-plan .tab-content .label-price .dolar {
+        color: #838ba5;
+        font-size: 20px; }
+    section.tab-plan .tab-content button {
+      padding: 10px 50px;
+      font-size: 12px;
+      font-family: ninbulsanreg;
+      letter-spacing: 1.3px; }
+  section.tab-plan .content-list img {
+    max-height: 70px; }
+  section.tab-plan .content-list ul li {
+    font-family: ninbulsanreg;
+    font-size: 18px;
+    list-style: none;
+    position: relative;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.33;
+    letter-spacing: 0.5px;
+    color: #475170;
+    padding: 5px 0;
+    padding-left: 20px; }
+    section.tab-plan .content-list ul li:after {
+      content: "";
+      position: absolute;
+      left: -20px;
+      top: 20px;
+      display: block;
+      background: #475170;
+      border-radius: 100%;
+      height: 8px;
+      width: 8px; }
+
+.over-content .foot-nav ul li {
+  clear: both;
+  padding-left: 20px !important;
+  position: relative !important;
+  overflow: unset !important; }
+  .over-content .foot-nav ul li:after {
+    position: absolute;
+    left: -0px;
+    display: block;
+    background: #0B0A34;
+    top: 20px;
+    content: '';
+    border-radius: 100%;
+    height: 6px;
+    width: 6px; }
+
+/*# sourceMappingURL=bookticket.css.map */

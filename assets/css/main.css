@@ -649,6 +649,27 @@ section.attend-list {
           font-size: 22px;
           font-weight: 550;
           letter-spacing: 1.2; }
+  section.attend-list .container {
+    position: relative; }
+  section.attend-list .owl-carousel {
+    max-width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.2); }
+  section.attend-list .btn-carousel.prev {
+    position: absolute;
+    left: -30px;
+    top: calc(50% - 20px); }
+  section.attend-list .btn-carousel.next {
+    position: absolute;
+    right: -30px;
+    top: calc(50% - 20px); }
 
 section.become {
   background-image: url(..images/acc-kiri-bawah.png);
@@ -845,7 +866,7 @@ section.blog {
       padding: 15px 0; }
       section.blog .card-blog .card-content .blog-title {
         font-size: 18px;
-        font-family: NimbusSanL-Bol;
+        font-family: ninbulsanbold;
         font-size: 18px;
         font-weight: normal;
         font-style: normal;

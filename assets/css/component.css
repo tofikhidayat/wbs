@@ -276,4 +276,11 @@ footer .navbar-brand .logo-list ul {
         .navbar-brand .logo-list ul li:hover {
           color: #2F2D73; }
 
+.uppercase {
+  text-transform: uppercase;
+  -webkit-text-transform: uppercase;
+  -o-text-transform: uppercase;
+  -ms-text-transform: uppercase;
+  -moz-text-transform: uppercase; }
+
 /*# sourceMappingURL=component.css.map */
