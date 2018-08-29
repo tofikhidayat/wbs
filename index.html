@@ -22,7 +22,7 @@
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-white">
 		 <div class="container">
-		 	 <a class="navbar-brand" href="#">
+		 	<div class="navbar-brand" href="index.html">
 		 	 	
 		 	 	<div class="logo border p-2 clearfix">
 		 	 		<div class="logo-name  float-left">
@@ -33,16 +33,22 @@
 		 	 		</div>
 		 	 	</div>
 		 	 	<div class="logo-list">
-		 	 		<ul>
-		 	 			<li>#wbs</li>
-		 	 			<li>#wbs</li>
-		 	 			<li>#wbs</li>
-		 	 			<li>#wbs</li>
-		 	 			<li>#wbs</li>
-		 	 		</ul>
+		 	 		<ul >
+   <li class="sump"><a href="https://nairobi.worldblockchainsummit.com/">NAIROBI</a></li>
+   <li  class="sump" ><a href="https://moscow.worldblockchainsummit.com/">MOSCOW</a></li>
+   <li class="sump"><a href="https://frankfurt.worldblockchainsummit.com/">FRANKFURT</a></li>
+   <li class="sump" ><a href="https://singapore.worldblockchainsummit.com/">SINGAPORE</a></li>
+   <li class="sump" ><a href="https://dubai.worldblockchainsummit.com/">DUBAI</a></li>
+   <li class="sump" ><a href="https://amsterdam.worldblockchainsummit.com/">AMSTERDAM</a></li>
+   <li  class="sump"><a href="https://kl.worldblockchainsummit.com/">KUALA LUMPUR</a></li>
+   <li  class="sump"><a href="https://mauritius.worldblockchainsummit.com/">MAURITIUS</a></li>
+   <li class="sump"><a href="https://riyadh.worldblockchainsummit.com/">RIYADH</a></li>
+   <li class="sump"><a href="https://india.worldblockchainsummit.com/">INDIA</a></li>
+   <li class="sump"><a href="https://taiwan.worldblockchainsummit.com/">TAIWAN</a></li>
+</ul>
 		 	 	</div>
 
-		 	 </a>
+		 	 </div>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -50,21 +56,21 @@
 		    <ul class="navbar-nav ml-auto">
 		      
 		      <li class="nav-item active">
-		        <a class="nav-link" href="#">HOME</a>
+		        <a class="nav-link go" href="#banner">HOME</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">ABOUT</a>
+		        <a class="nav-link go" href="#about">ABOUT</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">HAPPENINGS</a>
-		      </li>
-
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">SPEAKER</a>
+		        <a class="nav-link go" href="#happenings">HAPPENINGS</a>
 		      </li>
 
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">PARTNER</a>
+		        <a class="nav-link go" href="#speaker">SPEAKER</a>
+		      </li>
+
+		      <li class="nav-item">
+		        <a class="nav-link go" href="#partner">PARTNER</a>
 		      </li>
 
 			<li class="nav-item">
@@ -89,7 +95,7 @@
 		 </div>
 		</nav>
 	</header>
-	<section class="banner">
+	<section class="banner" id="banner">
 		<div class="banner-canvas">
 			<div class="container">
 				<div class="banner-title">
@@ -113,8 +119,8 @@
 							<div class="card rounded-custom event-list p-0">
 								<div class="ivent-header">
 									<div class="col-md-6 col-xs-12 p-0 float-left ivent-image" >
-										<img src="assets/images/immediate.png" class="col-12 p-0">
-										<div class="state">
+										<img src="assets/images/previous-ivent/Past Event.jpg" class="col-12 p-0">
+										<div class="state hidden" style="opacity: 0;">
 											<img src="assets/images/jp.png">
 										</div>
 									</div>
@@ -138,8 +144,8 @@
 							<div class="card rounded-custom event-list p-0">
 								<div class="ivent-header">
 									<div class="col-md-6 col-xs-12 p-0 float-left ivent-image">
-										<img src="assets/images/upcoming.png" class="col-12 p-0">
-										<div class="state">
+										<img src="assets/images/previous-ivent/Upcomming Event.jpg" class="col-12 p-0">
+										<div class="state hidden" style="opacity: 0;">
 											<img src="assets/images/th.png">
 										</div>
 									</div>
@@ -163,8 +169,8 @@
 							<div class="card rounded-custom event-list p-0">
 								<div class="ivent-header">
 									<div class="col-md-6 col-xs-12 p-0 float-left ivent-image">
-										<img src="assets/images/next future.png" class="col-12 p-0">
-										<div class="state">
+										<img src="assets/images/previous-ivent/Future Event.jpg" class="col-12 p-0">
+										<div class="state hidden" style="opacity: 0;">
 											<img src="assets/images/sg.png" >
 										</div>
 									</div>
@@ -336,7 +342,7 @@
 
 		
 
-		<div class="container">
+		<div class="container" id="about">
 			<h1 class="text-center title" data-aos="fade-up" data-aos-delay="0">
 			What is World Blockchain Summit
 		</h1>
@@ -403,58 +409,57 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 			<div class="col-md-10 col-12 float-right offset-md-2">
 				<div class="owl-carousel" id="slider-event">
 					<div class="item">
-						<img src="assets/images/vizah.jpg">
+						<img src="assets/images/previous-ivent/Vizag.jpg" class="ul">
 						<div class="item-content">
 							<div class="row">
 								<div class="col-md-6 ">
 									<div class="item-title clear-fix">
-										<div class="date"><span>22-23 MARCH 2018</span></div>
+										<div class="date"><span>9 – 10 OCTOBER 2017</span></div>
 										<div class="name"><span>VIZAG, INDIA</span></div>
 									</div>
 									<div class="action">
-										<a href="#" class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+										<a href="https://blockchainbusinessconference.com/"  target="_blank" class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
 									</div>
 								</div>
 								<div class="col-md-4 float-right offset-md-2 pb-3 ">
 									<div class="endorse">
-										<div class="by"><span>ENDORSE BY :</span></div>
+											<div class="by"><span>AN INITIATIVE BY:</span></div>
 										<div class="img-endorse ">
 											<a href="#">
-												<img src="assets/images/Bitmap Copy 11.png">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0"  style="width: 70px; height: auto">
 											</a>
 										</div>
 									</div>
 
-									<div class=>
+									<div class="" style="opacity: 0;">
 										<div class="by"><span>AN INITIATIVE BY:</span></div>
 										<div class="list">
 											<div class="ini-list p-0 col-6 float-left pr-2">
 											<a href="#" class="col-12 p-0">
-												<img src="assets/images/Bitmap Copy 15.png" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0" height="30">
 											</a>
 										</div>
-										<div class="ini-list p-0 col-6 float-left pl-2">
-											<a href="#" class="col-12 p-0">
-												<img src="assets/images/Bitmap Copy 10.png" class="col-12 p-0">
-											</a>
-										</div>
+										
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+
+
+
 					<div class="item">
-						<img src="assets/images/vizah.jpg">
+						<img src="assets/images/previous-ivent/Dubai.jpg" class="ul">
 						<div class="item-content">
 							<div class="row">
 								<div class="col-md-6 ">
 									<div class="item-title clear-fix">
-										<div class="date"><span>22-23 MARCH 2018</span></div>
-										<div class="name"><span>VIZAG, INDIA</span></div>
+										<div class="date"><span>24 – 25 OCTOBER 2017</span></div>
+										<div class="name"><span>DUBAI</span></div>
 									</div>
 									<div class="action">
-										<a href="#" class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+										<a href="https://dubai2017.worldblockchainsummit.com/" target="_blank" class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
 									</div>
 								</div>
 								<div class="col-md-4 float-right offset-md-2 pb-3 ">
@@ -462,156 +467,596 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 										<div class="by"><span>ENDORSE BY :</span></div>
 										<div class="img-endorse ">
 											<a href="#">
-												<img src="assets/images/Bitmap Copy 11.png">
+												<img src="assets/images/previous-ivent/Smart Dubai - horizantal.png" class="af">
 											</a>
 										</div>
 									</div>
 
-									<div class=>
+									<div class="" style="opacity: 0;">
 										<div class="by"><span>AN INITIATIVE BY:</span></div>
 										<div class="list">
 											<div class="ini-list p-0 col-6 float-left pr-2">
 											<a href="#" class="col-12 p-0">
-												<img src="assets/images/Bitmap Copy 15.png" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0" height="50">
 											</a>
 										</div>
-										<div class="ini-list p-0 col-6 float-left pl-2">
-											<a href="#" class="col-12 p-0">
-												<img src="assets/images/Bitmap Copy 10.png" class="col-12 p-0">
-											</a>
-										</div>
+										
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+
+
 					<div class="item">
-						<img src="assets/images/vizah.jpg">
+						<img src="assets/images/previous-ivent/WBS-Nairobi.jpg" class="ul">
 						<div class="item-content">
 							<div class="row">
 								<div class="col-md-6 ">
 									<div class="item-title clear-fix">
-										<div class="date"><span>22-23 MARCH 2018</span></div>
-										<div class="name"><span>VIZAG, INDIA</span></div>
+										<div class="date"><span>22 – 23 MARCH 2018</span></div>
+										<div class="name"><span>NAIROBI</span></div>
 									</div>
-									<div class="action">
-										<a href="#" class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+									<div class="action" style="bottom: 25px;">
+										<a href="https://nairobi.worldblockchainsummit.com/" target="_blank"  class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
 									</div>
 								</div>
-								<div class="col-md-4 float-right offset-md-2 pb-3 ">
+								<div class="col-md-4 float-right offset-md-2 pb-3 " style="opacity: 0;">
 									<div class="endorse">
 										<div class="by"><span>ENDORSE BY :</span></div>
 										<div class="img-endorse ">
 											<a href="#">
-												<img src="assets/images/Bitmap Copy 11.png">
+												<img src="assets/images/previous-ivent/WBS-Nairobi.jpg" class="af">
 											</a>
 										</div>
 									</div>
 
-									<div class=>
+									<div class="" style="opacity: 0;">
 										<div class="by"><span>AN INITIATIVE BY:</span></div>
 										<div class="list">
 											<div class="ini-list p-0 col-6 float-left pr-2">
 											<a href="#" class="col-12 p-0">
-												<img src="assets/images/Bitmap Copy 15.png" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0" height="30">
 											</a>
 										</div>
-										<div class="ini-list p-0 col-6 float-left pl-2">
-											<a href="#" class="col-12 p-0">
-												<img src="assets/images/Bitmap Copy 10.png" class="col-12 p-0">
-											</a>
-										</div>
+										
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+
+
+
+
 					<div class="item">
-						<img src="assets/images/vizah.jpg">
+						<img src="assets/images/previous-ivent/Moscow.jpg" class="ul">
 						<div class="item-content">
 							<div class="row">
 								<div class="col-md-6 ">
 									<div class="item-title clear-fix">
-										<div class="date"><span>22-23 MARCH 2018</span></div>
-										<div class="name"><span>VIZAG, INDIA</span></div>
+										<div class="date"><span>26 – 27 APRIL 2018</span></div>
+										<div class="name"><span>MOSCOW</span></div>
 									</div>
 									<div class="action">
-										<a href="#" class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+										<a href="https://moscow.worldblockchainsummit.com/" target="_blank"  class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
 									</div>
 								</div>
-								<div class="col-md-4 float-right offset-md-2 pb-3 ">
+								<div class="col-md-4 float-right offset-md-2 pb-3 " style="opacity: 1;">
 									<div class="endorse">
 										<div class="by"><span>ENDORSE BY :</span></div>
 										<div class="img-endorse ">
 											<a href="#">
-												<img src="assets/images/Bitmap Copy 11.png">
+												<img src="assets/images/previous-ivent/logo_RACIB_black_horizontal.png" class="af">
 											</a>
 										</div>
 									</div>
 
-									<div class=>
+									<div class="" style="opacity: 1;">
 										<div class="by"><span>AN INITIATIVE BY:</span></div>
 										<div class="list">
 											<div class="ini-list p-0 col-6 float-left pr-2">
 											<a href="#" class="col-12 p-0">
-												<img src="assets/images/Bitmap Copy 15.png" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/IDACB-LOGO-LINE.png" class="col-12 p-0" height="50">
 											</a>
 										</div>
-										<div class="ini-list p-0 col-6 float-left pl-2">
+
+
+										<div class="ini-list p-0 col-6 float-left pr-2">
 											<a href="#" class="col-12 p-0">
-												<img src="assets/images/Bitmap Copy 10.png" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Fintech-association.png" class="col-12 p-0" height="50">
 											</a>
 										</div>
+										
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+
+
 					<div class="item">
-						<img src="assets/images/vizah.jpg">
+						<img src="assets/images/previous-ivent/Frankfurt.jpg" class="ul">
 						<div class="item-content">
 							<div class="row">
 								<div class="col-md-6 ">
 									<div class="item-title clear-fix">
-										<div class="date"><span>22-23 MARCH 2018</span></div>
-										<div class="name"><span>VIZAG, INDIA</span></div>
+										<div class="date"><span>25 – 26 JUNE 2018
+
+</span></div>
+										<div class="name"><span>FRANKFURT</span></div>
 									</div>
 									<div class="action">
-										<a href="#" class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+										<a href="https://frankfurt.worldblockchainsummit.com/" target="_blank"  class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
 									</div>
 								</div>
-								<div class="col-md-4 float-right offset-md-2 pb-3 ">
+								<div class="col-md-4 float-right offset-md-2 pb-3 " style="opacity: 1;">
 									<div class="endorse">
 										<div class="by"><span>ENDORSE BY :</span></div>
 										<div class="img-endorse ">
-											<a href="#">
-												<img src="assets/images/Bitmap Copy 11.png">
+											<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/gizlogo-unternehmen-de-hks.png" class="col-12 p-0" height="50">
 											</a>
+										</div>
+
+
+										<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/European Fintech Alliance-logo-.png" class="col-12 p-0" height="50">
+											</a>
+										</div>
 										</div>
 									</div>
 
-									<div class=>
+									<div class="pt-5 mt-3" style="opacity: 1;">
 										<div class="by"><span>AN INITIATIVE BY:</span></div>
 										<div class="list">
 											<div class="ini-list p-0 col-6 float-left pr-2">
 											<a href="#" class="col-12 p-0">
-												<img src="assets/images/Bitmap Copy 15.png" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/blockchain-bundesverband.png" class="col-12 p-0" height="40" width="auto">
 											</a>
 										</div>
-										<div class="ini-list p-0 col-6 float-left pl-2">
+
+
+										<div class="ini-list p-0 col-6 float-left pr-2">
 											<a href="#" class="col-12 p-0">
-												<img src="assets/images/Bitmap Copy 10.png" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Frankfurt_School_Blockchain_Center_1083px_No_Margin.png" class="col-12 p-0" height="30">
 											</a>
 										</div>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+					
+					
+
+
+
+<div class="item">
+						<img src="assets/images/previous-ivent/Singapore.jpg" class="ul">
+						<div class="item-content">
+							<div class="row">
+								<div class="col-md-6 ">
+									<div class="item-title clear-fix">
+										<div class="date"><span>19 – 20 JULY 2018
+
+</span></div>
+										<div class="name pb-5"><span>SINGAPORE</span></div>
+									</div>
+									<div class="action mt-5 pt-5" style="margin-top: 200px !important;">
+										<a href="https://nairobi.worldblockchainsummit.com/" target="_blank"  class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+									</div>
+								</div>
+								<div class="col-md-4 float-right offset-md-2 pb-3 pt-5 mt-2" style="opacity: 1; padding-top: 80px !important;">
+									<div class="endorse">
+										<div class="by pb-4"><span>ENDORSE BY :</span></div>
+										<div class="ini-list p-0 col-6 float-left pr-2 ">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/SFA logo Original.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/access.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+									</div>
+
+									<div class="" style="opacity: 0;">
+										<div class="by"><span>AN INITIATIVE BY:</span></div>
+										<div class="list">
+											<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<div class="item">
+						<img src="assets/images/previous-ivent/Dubai (1).jpg" class="ul">
+						<div class="item-content">
+							<div class="row">
+								<div class="col-md-6 ">
+									<div class="item-title clear-fix">
+										<div class="date"><span>24 – 25 OCTOBER 2018
+
+</span></div>
+										<div class="name pb-5"><span>DUBAI</span></div>
+									</div>
+									<div class="action mt-5 pt-5" style="margin-top: 200px !important;">
+										<a href="https://nairobi.worldblockchainsummit.com/" target="_blank"  class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+									</div>
+								</div>
+								<div class="col-md-4 float-right offset-md-2 pb-3 pt-5 mt-2" style="opacity: 0; padding-top: 80px !important;">
+									<div class="endorse">
+										<div class="by pb-4"><span>ENDORSE BY :</span></div>
+										<div class="ini-list p-0 col-6 float-left pr-2 ">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/SFA logo Original.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/access.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+									</div>
+
+									<div class="" style="opacity: 0;">
+										<div class="by"><span>AN INITIATIVE BY:</span></div>
+										<div class="list">
+											<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+				<div class="item">
+						<img src="assets/images/previous-ivent/amsterdam-main-website.png" class="ul">
+						<div class="item-content">
+							<div class="row">
+								<div class="col-md-6 ">
+									<div class="item-title clear-fix">
+										<div class="date"><span>9 NOVEMBER 2018
+
+</span></div>
+										<div class="name pb-5"><span>AMSTERDAM</span></div>
+									</div>
+									<div class="action mt-5 pt-5" style="margin-top: 200px !important;">
+										<a href="https://nairobi.worldblockchainsummit.com/" target="_blank"  class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+									</div>
+								</div>
+								<div class="col-md-4 float-right offset-md-2 pb-3 pt-5 mt-2" style="opacity: 0; padding-top: 80px !important;">
+									<div class="endorse">
+										<div class="by pb-4"><span>ENDORSE BY :</span></div>
+										<div class="ini-list p-0 col-6 float-left pr-2 ">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/SFA logo Original.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/access.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+									</div>
+
+									<div class="" style="opacity: 0;">
+										<div class="by"><span>AN INITIATIVE BY:</span></div>
+										<div class="list">
+											<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+<div class="item">
+						<img src="assets/images/previous-ivent/kl.jpg" class="ul">
+						<div class="item-content">
+							<div class="row">
+								<div class="col-md-6 ">
+									<div class="item-title clear-fix">
+										<div class="date"><span>19 – 20 NOVEMBER 2018
+
+</span></div>
+										<div class="name pb-5"><span>KUALA LUMPUR</span></div>
+									</div>
+									<div class="action mt-5 pt-5" style="margin-top: 200px !important;">
+										<a href="https://nairobi.worldblockchainsummit.com/" target="_blank"  class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+									</div>
+								</div>
+								<div class="col-md-4 float-right offset-md-2 pb-3 pt-5 mt-2" style="opacity: 0; padding-top: 80px !important;">
+									<div class="endorse">
+										<div class="by pb-4"><span>ENDORSE BY :</span></div>
+										<div class="ini-list p-0 col-6 float-left pr-2 ">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/SFA logo Original.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/access.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+									</div>
+
+									<div class="" style="opacity: 0;">
+										<div class="by"><span>AN INITIATIVE BY:</span></div>
+										<div class="list">
+											<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+<div class="item">
+						<img src="assets/images/previous-ivent/wbs18-mauiritius-for-main-website-pic-1-1.jpg" class="ul">
+						<div class="item-content">
+							<div class="row">
+								<div class="col-md-6 ">
+									<div class="item-title clear-fix">
+										<div class="date"><span>30 NOVEMBER 2018
+
+</span></div>
+										<div class="name pb-5"><span>MAURITIUS</span></div>
+									</div>
+									<div class="action mt-5 pt-5" style="margin-top: 200px !important;">
+										<a href="https://nairobi.worldblockchainsummit.com/" target="_blank"  class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+									</div>
+								</div>
+								<div class="col-md-4 float-right offset-md-2 pb-3 pt-5 mt-2" style="opacity: 0; padding-top: 80px !important;">
+									<div class="endorse">
+										<div class="by pb-4"><span>ENDORSE BY :</span></div>
+										<div class="ini-list p-0 col-6 float-left pr-2 ">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/SFA logo Original.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/access.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+									</div>
+
+									<div class="" style="opacity: 0;">
+										<div class="by"><span>AN INITIATIVE BY:</span></div>
+										<div class="list">
+											<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+<div class="item">
+						<img src="assets/images/previous-ivent/Riyadh.jpg" class="ul">
+						<div class="item-content">
+							<div class="row">
+								<div class="col-md-6 ">
+									<div class="item-title clear-fix">
+										<div class="date"><span>5 – 6 DECEMBER 2018
+
+</span></div>
+										<div class="name pb-5"><span>RIYADH</span></div>
+									</div>
+									<div class="action mt-5 pt-5" style="margin-top: 200px !important;">
+										<a href="https://nairobi.worldblockchainsummit.com/" target="_blank"  class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+									</div>
+								</div>
+								<div class="col-md-4 float-right offset-md-2 pb-3 pt-5 mt-2" style="opacity: 0; padding-top: 80px !important;">
+									<div class="endorse">
+										<div class="by pb-4"><span>ENDORSE BY :</span></div>
+										<div class="ini-list p-0 col-6 float-left pr-2 ">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/SFA logo Original.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/access.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+									</div>
+
+									<div class="" style="opacity: 0;">
+										<div class="by"><span>AN INITIATIVE BY:</span></div>
+										<div class="list">
+											<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+					<div class="item">
+						<img src="assets/images/previous-ivent/taiwan.jpg" class="ul">
+						<div class="item-content">
+							<div class="row">
+								<div class="col-md-6 ">
+									<div class="item-title clear-fix">
+										<div class="date"><span>17 – 18 JANUARY 2019
+
+</span></div>
+										<div class="name pb-5"><span>TAIWAN</span></div>
+									</div>
+									<div class="action mt-5 pt-5" style="margin-top: 200px !important;">
+										<a href="https://nairobi.worldblockchainsummit.com/" target="_blank"  class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+									</div>
+								</div>
+								<div class="col-md-4 float-right offset-md-2 pb-3 pt-5 mt-2" style="opacity: 0; padding-top: 80px !important;">
+									<div class="endorse">
+										<div class="by pb-4"><span>ENDORSE BY :</span></div>
+										<div class="ini-list p-0 col-6 float-left pr-2 ">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/SFA logo Original.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/access.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+									</div>
+
+									<div class="" style="opacity: 0;">
+										<div class="by"><span>AN INITIATIVE BY:</span></div>
+										<div class="list">
+											<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+<div class="item">
+						<img src="assets/images/previous-ivent/jakarta.jpg" class="ul">
+						<div class="item-content">
+							<div class="row">
+								<div class="col-md-6 ">
+									<div class="item-title clear-fix">
+										<div class="date"><span>FEBRUARY 2019
+
+</span></div>
+										<div class="name pb-5"><span>JAKARTA</span></div>
+									</div>
+									<div class="action mt-5 pt-5" style="margin-top: 200px !important;">
+										<a href="https://nairobi.worldblockchainsummit.com/" target="_blank"  class="btn btn-lg rounded-0 border-0">LEARN MORE</a>
+									</div>
+								</div>
+								<div class="col-md-4 float-right offset-md-2 pb-3 pt-5 mt-2" style="opacity: 0; padding-top: 80px !important;">
+									<div class="endorse">
+										<div class="by pb-4"><span>ENDORSE BY :</span></div>
+										<div class="ini-list p-0 col-6 float-left pr-2 ">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/SFA logo Original.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/access.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+									</div>
+
+									<div class="" style="opacity: 0;">
+										<div class="by"><span>AN INITIATIVE BY:</span></div>
+										<div class="list">
+											<div class="ini-list p-0 col-6 float-left pr-2">
+											<a href="#" class="col-12 p-0">
+												<img src="assets/images/previous-ivent/Government of AP.png" class="col-12 p-0" height="30">
+											</a>
+										</div>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+
+
+					
 				</div>
 			</div>
 		</div>
@@ -620,7 +1065,7 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 	</section>
 
 
-	<section class="what-happenings">
+	<section class="what-happenings" id="happenings">
 			<div class="image-over-left-top">
 				<img src="assets/images/Group15bg-tittle.png">
 			</div>
@@ -701,7 +1146,7 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 
 
 
-<section class="speaker-list">
+<section class="speaker-list" id="speaker">
 	<div class="container">
 		<div class="row row-title">
 			<div class="col-md-6 col-12 float-left">
@@ -715,11 +1160,11 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 		</div>
 		<div class="row pt-3 content">
 	
-					<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+				<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/Charles-Hoskinson.jpg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
@@ -735,238 +1180,1088 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+</div>
+
+
+
+				<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/Wesam-Lootah.jpg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
 						<div class="text-center">
 							<div class="name-user col-12 p-0">
-								<span class="user-name"><strong>CHARLES HOSKINSON</strong></span>
+								<span class="user-name"><strong>WESAM LOOTAH</strong></span>
 							</div>
 							<div class="desc-user col-12 p-0 pt-2">
 								<span class="user-desc">
-									CEO - IOHK , Co-founder Ethreum. United States
+									Chief Executive Officer,Smart Dubai Government Establishment UAE
 								</span>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
+
+
+				<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Miko-Matsumura.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>MIKO MATSUMURA</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+									Founder, Evercoin United States
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div></div>
+
+
+
+
+				<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Nick-Ayton.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>NICK AYTON</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+									Founder,Chainstarter United Kingdom
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+				<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/mdshael.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>MOHAMMED ABDULLAH SHAEL AL SAADI</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+									Chief Executive Officer,Corporate Strategic Affairs Sector DED, Government of Dubai
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+</div>
+				<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/JASON-GOLDBERG.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>JASON GOLDBERG</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+									Founder and CEO, Simple Token
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+</div>
+
+				<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/JAMIE-BURKE.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>JEREMY MILLAR</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+									Chief Of Staff, ConsenSys USA
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+					<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/German-Klimenko.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>GERMAN KLIMENKO</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+									Trustee Board, IDACB Russia
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+</div>
+
+
+				<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Nikolay-Shkilev.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>NIKOLAY SHKILEV</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+									Co-Founder, Top ICO Advisors,<br> Russia
+
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+
+
+
+
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Julie-Maupin.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>JULIE MAUPIN</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+									Director of Social Impact & Public Regulatory Affairs – IOTA Foundation, Fintech Advisor – German Ministry of Finance, Germany
+
+
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Taavi-Roivas.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>TAAVI ROIVAS</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+									Ex-Prime Minister of Estonia and Member of the Estonian Parliament, Estonia
+
+
+
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Kris-Bennett.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>KRIS BENNETT</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+									Founder, Blockchain Influencer, Blockchain Beard Guy, Aenea, United States
+
+
+
+
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Alex-Medana.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>ALEX MEDANA</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+								Co-Founder and CEO, FinFabrik, Hong Kong
+
+
+
+
+
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/SALLY-EAVES.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>SALLY EAVES</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+								Speaker and Author, Research Forbes Technology Council London United Kingdom
+
+
+
+
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Pripachkin-Yuri-Igorevich.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>YURI IGOREVICH PRIPACHKIN</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+								President, RACIB Russia
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/speakers-MIK-2018.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>Dr.ELIZA MIK</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+							Assistant Professor, Singapore Management University Singapore
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/VANESSA-GRELLET.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>VANESSA GRELLET</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+							TExecutive Director, ConsenSys, United States
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Sergey-Solonin.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>SERGEY SOLONIN</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+							CEO,FinTech Association Russia
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Bruce-Porter-Jr.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>BRUCE PORTER JR</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+							CEO, GlobalBoost, United States
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/DINIS-GUARDA-2.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>DINIS GUARDA</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+							Author, CEO & Founder, lifesci United Kingdom
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+	
+	
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Anson-Zeall.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>ANSON ZEALL</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+							Chairman of the Board (ACCESS), Singapore’s Cryptocurrency and Blockchain Industry Association, Singapore
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/JAMIE-BURKE.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>JAMIE BURKE</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+							CEO, Outlier Ventures & Outlier Capital LLP, UK
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+	
+	
+
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Pavel-Kravchenko.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>PAVEL KRAVCHENKO</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+							Founder, Distributed Lab, Ukraine
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+	
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Maximilian-Marenbach.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>MAXIMILIAN MARENBACH</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+							Head of Partnerships & Business Development, Kraken, Netherlands
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+	
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="10">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Simon-Cocking.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>SIMON COCKING</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+Senior Editor – Irish Tech News, Editor in Chief – CryptoCoinNews,TEDx Speaker, Ireland
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Vladimir-Nikitin.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>VLADIMIR NIKITIN</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+Co-Founder, Top ICO Advisors Russia
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+	
+	
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Ted-Lin.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>TED LIN</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+Head of International Markets, Binance, Taiwan
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+	
+	
+
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Andrew-Pal.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>ANDREW PAL</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+Chief Strategy Officer (APAC), GSX Group, Singapore
+
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Igor-Pesin.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>IGOR PESIN</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+Partner, Life.SREDA VC, Singapore
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+	
+
+
+		<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+				<div class="card rounded-0 border-0">
+					<div class=" p-3">
+						
+							<img src="assets/images/Series Speakers/Robby-Schwertner.jpg" class="col-12 border-0 p-0" >
+						
+					</div>
+					<div class="pb-4">
+						<div class="text-center">
+							<div class="name-user col-12 p-0">
+								<span class="user-name"><strong>ROBERT SCHWERTNER</strong></span>
+							</div>
+							<div class="desc-user col-12 p-0 pt-2">
+								<span class="user-desc">
+Social Media Influencer, Crypto Blogger Austria
+
+
+
+
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+</div>
+
+	
+
+
 			<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/ISMAIL-MALIK.jpg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
 						<div class="text-center">
 							<div class="name-user col-12 p-0">
-								<span class="user-name"><strong>CHARLES HOSKINSON</strong></span>
+								<span class="user-name"><strong>ISMAIL MALIK</strong></span>
 							</div>
 							<div class="desc-user col-12 p-0 pt-2">
 								<span class="user-desc">
-									CEO - IOHK , Co-founder Ethreum. United States
+Editor-In-Chief, ICO CROWD, United Kingdom
+
+
+
+
+
 								</span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="20">
+</div>
+
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/Bitange-Ndemo.jpg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
 						<div class="text-center">
 							<div class="name-user col-12 p-0">
-								<span class="user-name"><strong>CHARLES HOSKINSON</strong></span>
+								<span class="user-name"><strong>BITANGE NDEMO</strong></span>
 							</div>
 							<div class="desc-user col-12 p-0 pt-2">
 								<span class="user-desc">
-									CEO - IOHK , Co-founder Ethreum. United States
+Chairman of Blockchain and AI Taskforce, Government of Kenya Kenya
+
+
+
+
+
+
 								</span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-					<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+</div>
+
+
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/Marloes-Pomp.jpeg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
 						<div class="text-center">
 							<div class="name-user col-12 p-0">
-								<span class="user-name"><strong>CHARLES HOSKINSON</strong></span>
+								<span class="user-name"><strong>MARLOES POMP</strong></span>
 							</div>
 							<div class="desc-user col-12 p-0 pt-2">
 								<span class="user-desc">
-									CEO - IOHK , Co-founder Ethreum. United States
+Program Manager Blockchain, Dutch Government, Netherlands
+
+
+
 								</span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+</div>
+
+
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/Joe-Seunghyun-Cho.jpg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
 						<div class="text-center">
 							<div class="name-user col-12 p-0">
-								<span class="user-name"><strong>CHARLES HOSKINSON</strong></span>
+								<span class="user-name"><strong>JOE SEUNGHYUN CHO</strong></span>
 							</div>
 							<div class="desc-user col-12 p-0 pt-2">
 								<span class="user-desc">
-									CEO - IOHK , Co-founder Ethreum. United States
+Co-Founder and Chairman – Marvelstone Group, Co-Founder and Founding CEO – LATTICE80, Singapore
+
+
+
 								</span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
+</div>
+
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/Jeff-Berwick.jpg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
 						<div class="text-center">
 							<div class="name-user col-12 p-0">
-								<span class="user-name"><strong>CHARLES HOSKINSON</strong></span>
+								<span class="user-name"><strong>JEFF BERWICK</strong></span>
 							</div>
 							<div class="desc-user col-12 p-0 pt-2">
 								<span class="user-desc">
-									CEO - IOHK , Co-founder Ethreum. United States
+Chief Editor, The Dollar Vigilante Liberland
 								</span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="20">
+</div>
+
+
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/Ruben-Bach.jpg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
 						<div class="text-center">
 							<div class="name-user col-12 p-0">
-								<span class="user-name"><strong>CHARLES HOSKINSON</strong></span>
+								<span class="user-name"><strong>RUBEN BACH</strong></span>
 							</div>
 							<div class="desc-user col-12 p-0 pt-2">
 								<span class="user-desc">
-									CEO - IOHK , Co-founder Ethreum. United States
+Partner, SVS Capital Partners, Germany
+
 								</span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-					<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
+</div>
+
+
+	<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/Christian-Ferri.jpg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
 						<div class="text-center">
 							<div class="name-user col-12 p-0">
-								<span class="user-name"><strong>CHARLES HOSKINSON</strong></span>
+								<span class="user-name"><strong>CHRISTIAN FERRI</strong></span>
 							</div>
 							<div class="desc-user col-12 p-0 pt-2">
 								<span class="user-desc">
-									CEO - IOHK , Co-founder Ethreum. United States
+President and CEO, BlockStar, United States
+
+
 								</span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
+</div>
+
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="100">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/Christopher-Wray.jpg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
 						<div class="text-center">
 							<div class="name-user col-12 p-0">
-								<span class="user-name"><strong>CHARLES HOSKINSON</strong></span>
+								<span class="user-name"><strong>CHRISTOPHER WRAY</strong></span>
 							</div>
 							<div class="desc-user col-12 p-0 pt-2">
 								<span class="user-desc">
-									CEO - IOHK , Co-founder Ethreum. United States
+Chief Legal Officer, Mattereum, United Kingdom
+
+
+
 								</span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
+</div>
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="50">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/William-PIQUARD-1.jpg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
 						<div class="text-center">
 							<div class="name-user col-12 p-0">
-								<span class="user-name"><strong>CHARLES HOSKINSON</strong></span>
+								<span class="user-name"><strong>WILLIAM PIQUARD</strong></span>
 							</div>
 							<div class="desc-user col-12 p-0 pt-2">
 								<span class="user-desc">
-									CEO - IOHK , Co-founder Ethreum. United States
+Managing Director Europe,Gatecoin Limited, France
+
+
+
+
 								</span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="20">
+</div>
+
+
+<div class="col-setting-5 float-left " data-aos="fade-up" data-aos-delay="0">
 				<div class="card rounded-0 border-0">
 					<div class=" p-3">
 						
-							<img src="assets/images/user-01.png" class="col-12 border-0 p-0" >
+							<img src="assets/images/Series Speakers/MARYAM-TAGHIYEVA.jpg" class="col-12 border-0 p-0" >
 						
 					</div>
 					<div class="pb-4">
 						<div class="text-center">
 							<div class="name-user col-12 p-0">
-								<span class="user-name"><strong>CHARLES HOSKINSON</strong></span>
+								<span class="user-name"><strong>MARYAM TAGHIYEVA</strong></span>
 							</div>
 							<div class="desc-user col-12 p-0 pt-2">
 								<span class="user-desc">
-									CEO - IOHK , Co-founder Ethreum. United States
+Chief Systems Architect, Centre for Citizenship Enterprise and Governance UK
+
+
+
 								</span>
 							</div>
 						</div>
 					</div>
 				</div>
+</div>
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			</div>
+			
 		</div>
 	</div>
 
@@ -1166,7 +2461,7 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 
 
 
-<section class="sponsor">
+<section class="sponsor" id="partner">
 	
 
 	<div class="container position-relative">
@@ -1462,7 +2757,7 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 	</div>
 
 	<div class="row" >
-		<div class="btn-semi-block btn btn-primary btn-custom-size btn-select rounded-0  transition-slow-in-out mx-auto mx-0 border-0 btn-lg btn-load-more">
+		<div class="btn-semi-block btn btn-primary btn-custom-size btn-select rounded-0  transition-slow-in-out mx-auto mx-0 border-0 btn-lg btn-load-more" >
 			<div class="float-left">
 				<span class="text-button">LOAD MORE	</span>
 			</div>
@@ -1713,8 +3008,7 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 		  	<div class="float-right card-become card-1 back" data-aos="fade-up" data-aos-delay="20">
 		  		<div class="semi-title"><h1 class="semi-tite">Want to become a Speaker</h1></div>
 		  		<div class="semi-content">
-		  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		  			tempor incididunt ut labore et dolore magna aliqua.</p>
+		  			<p> Want to be a speaker? Share your experience with us and get more benefits and something new.</p>
 		  		</div>
 
 		  		<div class="semi-button col-12 p-0">
@@ -1727,9 +3021,11 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 
 		   <div class="col-md-6 col-xs-12 float-left">
 		  	<div class="float-left card-become  card-2" data-aos="fade-up" data-aos-delay="100">
-		  		<div class="semi-title"><h1 class="semi-tite">Want to become a Speaker</h1></div>
+		  		<div class="semi-title"><h1 class="semi-tite">Want to become a Partner</h1></div>
 		  		<div class="semi-content">
-		  			<p></p>
+		  			<p class="text-white" style="color: #fff !important">
+		  				Want to be a partner and get more valueable benefit? Let's join us right now.
+		  			</p>
 		  		</div>
 
 		  		<div class="semi-button col-12 p-0">
@@ -1891,15 +3187,15 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 		<div class="col-md-3 col-sm-4 col-6 float-left" data-aos="fade-up" data-aos-delay="100">
 			<div class="card-blog">
 				<div class="card-head">
-					<img src="assets/images/img-01.png">
+					<img src="assets/images/blog.jpeg">
 				</div>
 				<div class="card-content">
-				<div class="container-fluid">
-						<h3 class="text-left blog-title">Lorem Ipsum Dolore</h3>
+				<div class="container-fluid p-3">
+						<h3 class="text-left blog-title">Trescon’s Blockchain Forum has ...</h3>
 						<p class="blog-text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud.
+							Trescon Blockchain Forum has undergone a facelift, after the holding company Trescon has decided to rename it as ‘The Block Review’.
+
+The decision to rename it comes after the institution launched its peer-to-peer publication of the same name....
 						</p>
 				</div>
 				</div>
@@ -1907,28 +3203,41 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 				<div class="card-foot">
 					<div class="col-8 float-left">
 						<span class="text-left float-left">
-							27 march 2018
+							
 						</span>
 					</div>
 					<div class="col-4 float-left">
-						<button class="btn btn-sm float-right rounded-0">Fintech</button>
+							<a href="https://worldblockchainsummit.com/trescons-blockchain-forum-has-undergone-a-facelift/" title="">
+								<button class="btn btn-sm float-right rounded-0">Fintech</button>
+							</a>
 					</div>
 				</div>
 
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-4 col-6 float-left" data-aos="fade-up" data-aos-delay="150">
+
+
+
+
+
+
+
+
+
+
+
+		<div class="col-md-3 col-sm-4 col-6 float-left" data-aos="fade-up" data-aos-delay="100">
 			<div class="card-blog">
 				<div class="card-head">
-					<img src="assets/images/img-02.png">
+					<img src="assets/images/blog.jpeg">
 				</div>
 				<div class="card-content">
-				<div class="container-fluid">
-						<h3 class="text-left blog-title">Lorem Ipsum Dolore</h3>
+				<div class="container-fluid p-3">
+						<h3 class="text-left blog-title">Kenyans too have gone a bit blockchain bonkers...</h3>
 						<p class="blog-text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud.
+							The Twende app aims to coordinate the vast network of drivers to deliver a revamped service to citizens that is easy to pay. What sets it apart from the rest of its competition? Twende plans to achieve its goal with the help of blockchain. 
+
+
 						</p>
 				</div>
 				</div>
@@ -1936,28 +3245,34 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 				<div class="card-foot">
 					<div class="col-8 float-left">
 						<span class="text-left float-left">
-							27 march 2018
+							
 						</span>
 					</div>
 					<div class="col-4 float-left">
-						<button class="btn btn-sm float-right rounded-0">Fintech</button>
+							<a href="https://worldblockchainsummit.com/kenyans-gone-blockchain-bonkers/" title="">
+								<button class="btn btn-sm float-right rounded-0">Fintech</button>
+							</a>
 					</div>
 				</div>
 
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-4 col-6 float-left" data-aos="fade-up" data-aos-delay="0">
+
+
+
+
+		<div class="col-md-3 col-sm-4 col-6 float-left" data-aos="fade-up" data-aos-delay="100">
 			<div class="card-blog">
 				<div class="card-head">
-					<img src="assets/images/img-03.png">
+					<img src="assets/images/blog.jpeg">
 				</div>
 				<div class="card-content">
-				<div class="container-fluid">
-						<h3 class="text-left blog-title">Lorem Ipsum Dolore</h3>
+				<div class="container-fluid p-3">
+						<h3 class="text-left blog-title">Blockchain Technology will brighten up Africa’s future....</h3>
 						<p class="blog-text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud.
+							The rise of cryptocurrencies, and its platform blockchain technology, has given the international community within Africa the much needed economic mobility and central flexibility it required ...
+
+
 						</p>
 				</div>
 				</div>
@@ -1965,46 +3280,64 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 				<div class="card-foot">
 					<div class="col-8 float-left">
 						<span class="text-left float-left">
-							27 march 2018
+							
 						</span>
 					</div>
 					<div class="col-4 float-left">
-						<button class="btn btn-sm float-right rounded-0">Fintech</button>
+							<a href="https://worldblockchainsummit.com/kenyans-gone-blockchain-bonkers/" title="">
+								<button class="btn btn-sm float-right rounded-0">Fintech</button>
+							</a>
 					</div>
 				</div>
 
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-4 col-6 float-left" data-aos="fade-up" data-aos-delay="200">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="col-md-3 col-sm-4 col-6 float-left" data-aos="fade-up" data-aos-delay="100">
 			<div class="card-blog">
 				<div class="card-head">
-					<img src="assets/images/img-04.png">
+					<img src="assets/images/blog.jpeg">
 				</div>
 				<div class="card-content">
-				<div class="container-fluid">
-						<h3 class="text-left blog-title">Lorem Ipsum Dolore</h3>
-						<p class="blog-text text-default">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud.
+				<div class="container-fluid p-3">
+						<h3 class="text-left blog-title">Blockchain kills several birds with a single shot in Kenya....</h3>
+						<p class="blog-text">
+							With M-PESA as a backdrop, the demand for technology solutions like blockchain has soared. Not just financial deals, but the technology has even revolutionized sectors like security, transport...
+
+
 						</p>
 				</div>
 				</div>
 				<div class="container-fluid">	<div class="inner-line"></div></div>
 				<div class="card-foot">
-
 					<div class="col-8 float-left">
 						<span class="text-left float-left">
-							27 march 2018
+							
 						</span>
 					</div>
 					<div class="col-4 float-left">
-						<button class="btn btn-sm float-right rounded-0">Fintech</button>
+							<a href="https://worldblockchainsummit.com/blockchain-kenya/" title="">
+								<button class="btn btn-sm float-right rounded-0">Fintech</button>
+							</a>
 					</div>
 				</div>
 
 			</div>
 		</div>
+		
 </div>
 
 	</div>
@@ -2020,27 +3353,19 @@ The Summit features inspirational, thought-provoking keynotes, panel discussions
 			<h1 class="text-left title text-white">#WBS</h1>
 		</div>
 		<div class="float-right">
-		 <a class="navbar-brand pt-4" href="#">
+		 <a class="navbar-brand pt-4" href="index.html">
 		 	 	
 		 	 	<div class="logo border p-2 clearfix">
 		 	 		<div class="logo-name  float-left">
-		 	 			<span>#WBSGlobal</span>
+		 	 			<span>#GLOBALSeries</span>
 		 	 		</div>
-		 	 		<div class="logo-chevrom ml-5 pl-2 float-left border-left">
-		 	 			<i class=" fa fa-angle-down"></i>
-		 	 		</div>
+		 	 		
 		 	 	</div>
 		 	 	<div class="logo-list">
-		 	 		<ul>
-		 	 			<li>#wbs</li>
-		 	 			<li>#wbs</li>
-		 	 			<li>#wbs</li>
-		 	 			<li>#wbs</li>
-		 	 			<li>#wbs</li>
-		 	 		</ul>
+		 	 		
 		 	 	</div>
 
-		 	 </a>
+		 	 </a>	
 		</div>
 	</div>
 	<div class="foot-content clearfix">

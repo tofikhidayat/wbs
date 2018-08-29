@@ -126,6 +126,7 @@ section.buy-ticket {
 
 section.subscribe-me .canvas-bg {
   position: relative;
+  background-image: url(../images/bg.png);
   z-index: -1; }
 
 section.subscribe-me .image-spacer {
@@ -309,6 +310,7 @@ section.maps .fot {
   font-family: ninbulsanreg;
   font-size: 16px;
   font-weight: normal;
+  min-height: 150px;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.43;

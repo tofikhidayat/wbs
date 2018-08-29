@@ -126,7 +126,7 @@
 
 .col-setting-5 {
   width: 25%;
-  padding: 30px 30px; }
+  padding: 30px 20px; }
 
 .transition-slow {
   -webkit-transition: 0.3s ease;
@@ -194,17 +194,24 @@ footer .navbar-brand .logo-chevrom {
   color: #fff; }
   footer .navbar-brand .logo-chevrom:before {
     background: #4B4C6E !important; }
-footer .navbar-brand .logo-list ul {
-  top: -6px;
-  background: #302E53 !important; }
-  footer .navbar-brand .logo-list ul li {
+footer .navbar-brand .logo-list {
+  display: block; }
+  footer .navbar-brand .logo-list ul {
+    top: 10px;
     background: #302E53 !important;
-    color: #fff; }
-    footer .navbar-brand .logo-list ul li:hover {
-      color: #CCCCCC; }
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important; }
+    footer .navbar-brand .logo-list ul li {
+      background: #302E53 !important;
+      color: #fff; }
+      footer .navbar-brand .logo-list ul li:hover {
+        color: #CCCCCC; }
 
 .navbar-brand {
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
   .navbar-brand .logo {
     position: relative;
     z-index: 99999;
@@ -216,7 +223,7 @@ footer .navbar-brand .logo-list ul {
     padding-top: 7px !important;
     color: #0D0C33 !important; }
     .navbar-brand .logo:hover + .logo-list {
-      display: block; }
+      display: block !important; }
     .navbar-brand .logo .logo-name {
       font-family: knocout;
       font-size: 19px; }
@@ -238,6 +245,12 @@ footer .navbar-brand .logo-list ul {
       .navbar-brand .logo .logo-chevrom i {
         position: relative;
         top: -5px; }
+  .navbar-brand .uppercase {
+    text-transform: uppercase;
+    -webkit-text-transform: uppercase;
+    -o-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    -moz-text-transform: uppercase; }
   .navbar-brand .logo-list {
     display: none;
     position: absolute;
@@ -247,7 +260,7 @@ footer .navbar-brand .logo-list ul {
     width: 100%;
     padding-bottom: 0px !important; }
     .navbar-brand .logo-list:hover {
-      display: block; }
+      display: block !important; }
     .navbar-brand .logo-list ul {
       padding-top: 5px;
       padding-bottom: 0px !important;
@@ -260,6 +273,7 @@ footer .navbar-brand .logo-list ul {
       .navbar-brand .logo-list ul li {
         background: #fff;
         font-family: ninbulsanbold;
+        list-style: none;
         padding: 4px 10px;
         list-style: none;
         -webkit-transition: 0.2s ease;
@@ -276,11 +290,29 @@ footer .navbar-brand .logo-list ul {
         .navbar-brand .logo-list ul li:hover {
           color: #2F2D73; }
 
-.uppercase {
-  text-transform: uppercase;
-  -webkit-text-transform: uppercase;
-  -o-text-transform: uppercase;
-  -ms-text-transform: uppercase;
-  -moz-text-transform: uppercase; }
+.sump {
+  list-style: none;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  margin-left: 0px !important;
+  color: #010022 !important;
+  margin-right: 0px !important;
+  opacity: 1 !important; }
+  .sump a {
+    text-decoration: none;
+    font-size: 16px !important;
+    color: #010022 !important;
+    opacity: 1 !important; }
+    .sump a span {
+      color: #010022 !important;
+      opacity: 1 !important; }
+
+#slider-event .item {
+  max-height: 360px;
+  min-height: 360px; }
+  #slider-event .item .ul {
+    min-height: 400px;
+    width: 100%;
+    object-fit: cover; }
 
 /*# sourceMappingURL=component.css.map */
