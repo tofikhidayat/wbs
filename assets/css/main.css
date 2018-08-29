@@ -217,7 +217,7 @@ header {
     overflow: hidden;
     height: 100%; }
     .banner .social-banner ul {
-      margin-top: 200px; }
+      margin-top: 150px; }
       .banner .social-banner ul li {
         list-style: none;
         padding: 10px 0; }
@@ -943,7 +943,24 @@ footer {
         footer .foot-sec .foot-nav.foot-social ul li, footer .foot-sec .foot-social.foot-social ul li {
           padding: 10px 10px; }
           footer .foot-sec .foot-nav.foot-social ul li img, footer .foot-sec .foot-social.foot-social ul li img {
-            max-width: 50px; }
+            max-width: 50px;
+            border-radius: 100%;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            -ms-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            -webkit-transition: 0.2s ease;
+            -moz-transition: 0.2s ease;
+            -o-transition: 0.2s ease;
+            -ms-transition: 0.2s ease;
+            transition: 0.2s ease; }
+            footer .foot-sec .foot-nav.foot-social ul li img:hover, footer .foot-sec .foot-social.foot-social ul li img:hover {
+              box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+              -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+              -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+              -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+              -ms-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1); }
       footer .foot-sec .foot-nav ul, footer .foot-sec .foot-social ul {
         clear: both;
         overflow: hidden; }

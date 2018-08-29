@@ -271,7 +271,7 @@ header
 		overflow: hidden;
 		height: 100%;
 		ul{
-			margin-top: 200px;
+			margin-top: 150px;
 			li{
 				list-style: none;
 				padding: 10px 0;
@@ -1299,8 +1299,16 @@ footer
 				padding-top: 105px;
 				ul li{
 					padding: 10px 10px;
+					
+
 					img{
 						max-width: 50px;
+						border-radius: 100%;
+						@include box-shadow(0px 0px 10px 0px rgba(0,0,0,.1));
+					@include transition(.2s ease);
+					&:hover{
+						@include box-shadow(0px 1px 20px 0px rgba(0,0,0,.1));
+					}
 					}
 				}
 			}
