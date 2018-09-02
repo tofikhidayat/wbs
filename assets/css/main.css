@@ -126,7 +126,7 @@ header {
       color: #fff;
       font-family: knocout;
       letter-spacing: 5px;
-      font-size: 75px;
+      font-size: 64	px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -222,7 +222,9 @@ header {
         list-style: none;
         padding: 10px 0; }
         .banner .social-banner ul li img {
-          max-width: 50px; }
+          max-width: 50px;
+          border-radius: 100%;
+          overflow: hidden; }
 
 .speaker {
   padding: 80px 0;
@@ -272,9 +274,10 @@ section.about {
   background-position: right;
   background-repeat: no-repeat; }
   section.about h1 {
-    color: #010022 !important; }
+    color: #010022 !important;
+    font-style: 60px; }
   section.about p {
-    font-size: 15px;
+    font-size: 17px;
     font-family: ninbulsanreg;
     line-height: 1.42;
     letter-spacing: 0.5px;

@@ -318,4 +318,20 @@ section.maps .fot {
   text-align: center;
   color: #384670; }
 
+#user-carousel .owl-item {
+  position: relative; }
+  #user-carousel .owl-item.center .content-owl-data {
+    display: block; }
+  #user-carousel .owl-item .content-owl-data {
+    display: none;
+    position: relative;
+    min-width: 1000px;
+    left: -400px; }
+#user-carousel .owl-item.active:nth-child(4) {
+  opacity: 0 !important;
+  display: none; }
+
+.second-item {
+  background: red; }
+
 /*# sourceMappingURL=event.css.map */

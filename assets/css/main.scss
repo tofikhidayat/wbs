@@ -1,4 +1,4 @@
-@import '_plugins/variable';
+		@import '_plugins/variable';
 html , body{
 	@include overflow-x(hidden);
 }
@@ -141,7 +141,7 @@ header
 			color: #fff;
 			font-family: $knockout;
 			letter-spacing: 5px;
-			  font-size: 75px;
+			  font-size: 64	px;
 			  font-weight: normal;
 			  font-style: normal;
 			  font-stretch: normal;
@@ -277,6 +277,8 @@ header
 				padding: 10px 0;
 				img{
 					max-width: 50px;
+					border-radius: 100%;
+					overflow: hidden;
 				}
 			}
 		}
@@ -357,9 +359,10 @@ section.about
 	background-repeat: no-repeat;
 	h1{
 		color: #010022 !important;
+		font-style: 60px;
 	}
 	p{
-		font-size: 15px;
+		font-size: 17px;
 		font-family: $ninbulsan;
 		 line-height: 1.42;
   letter-spacing: 0.5px;

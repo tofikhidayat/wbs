@@ -396,3 +396,33 @@ min-width: 900px;
   color: #384670;
 }
 
+
+
+#user-carousel{
+.owl-item {
+	position: relative;
+	&.center{
+		.content-owl-data
+		{
+			display: block;
+		}
+	}
+	.content-owl-data
+	{
+		display: none;
+		position: relative;
+		min-width: 1000px;
+		left: -400px;
+
+	}
+}
+	.owl-item.active:nth-child(4){
+		opacity:0 !important;
+		display: none;
+	}
+}
+
+.second-item
+{
+	background: red;
+}

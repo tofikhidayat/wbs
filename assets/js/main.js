@@ -44,6 +44,7 @@ $("#prev-owl").click(function(event) {
 });
 });
 
+
 $('#attend-list').owlCarousel({
     loop:true,
     margin:30,
@@ -187,4 +188,181 @@ $(document).ready(function(){
       });
     } // End if
   });
+});
+
+
+//speaker-content
+
+jQuery(document).ready(function($) {
+  
+for (var i = 0; i < speaker.length; i++) {
+   var animate  = ['0','50','100','150','200'];
+   var target = $("#speaker-content");
+   var template1 = "<div class='col-setting-5 float-left speaker-container' data-id='"+i+"'  data-aos='fade-up' data-aos-delay='"+animate[Math.floor(Math.random() * 4) + 0]+"'> <div class='card rounded-0 border-0 pointer user-static'><div class=' p-3'>";
+   var template2 = "<img src='assets/images/Series Speakers/"+speaker[i].image+"' class='col-12 border-0 p-0' >";
+   var template3 = "</div><div class='pb-4'><div class='text-center'><div class='name-user col-12 p-0'>";
+   var template4 = "<span class='user-name'><strong>"+speaker[i].name+"</strong></span>";
+   var template5 = "</div><div class='desc-user col-12 p-0 pt-2'>";
+   var template6 = "<span class='user-desc'>"+speaker[i].status+"</span>";
+   var template7 = "</div></div></div></div></div>";
+
+    var template = template1+template2+template3+template4+template5+template6+template7;
+    target.append(template);
+
+}
+
+});
+
+jQuery(document).ready(function($) {
+  
+for (var i = 0; i < 8; i++) {
+   var animate   = ['0','50','100','150','200'];
+   var target    = $("#speaker-index");
+   var template1 = "<div class='col-setting-5 float-left speaker-container' data-id='"+i+"'  data-aos='fade-up' data-aos-delay='"+animate[Math.floor(Math.random() * 4) + 0]+"'> <div class='card rounded-0 border-0 pointer user-static'><div class=' p-3'>";
+   var template2 = "<img src='assets/images/Series Speakers/"+speaker[i].image+"' class='col-12 border-0 p-0' >";
+   var template3 = "</div><div class='pb-4'><div class='text-center'><div class='name-user col-12 p-0'>";
+   var template4 = "<span class='user-name'><strong>"+speaker[i].name+"</strong></span>";
+   var template5 = "</div><div class='desc-user col-12 p-0 pt-2'>";
+   var template6 = "<span class='user-desc'>"+speaker[i].status+"</span>";
+   var template7 = "</div></div></div></div></div>";
+
+    var template = template1+template2+template3+template4+template5+template6+template7;
+    target.append(template);
+
+}
+
+
+});
+
+$(document).on('click', '.user-static', function(event) {
+    event.preventDefault();
+    var id = parseInt($(this).closest('.speaker-container').attr('data-id'));
+    $('.modal-speaker-arent').fadeIn('fast');
+    $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[id].image)
+    $(".speaker-name strong").text(speaker[id].name);
+    $(".speaker-status p").text(speaker[id].status);
+    $(".modal-speaker p.text").text(speaker[id].content);
+    $('.modal-speaker-arent').attr('data-id',id);
+
+
+});
+
+
+$(document).on('click', '#close-speaker,.modal-after', function(event) {
+    event.preventDefault();
+    $(this).closest('.modal-speaker-arent').fadeOut('fast');
+   
+
+});
+
+
+
+
+$(document).on('click', '.speaker-controll', function(event) {
+    event.preventDefault();
+     var id = parseInt($(this).closest('.modal-speaker-arent').attr('data-id'));
+    var go = $(this).attr('go');
+    $(".modal-bg-for-modal").fadeOut(10, function() {
+        
+    });
+
+
+    if (go == "next") {
+       if (id == (speaker.length - 1)) {
+        
+            $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[0].image)
+            $(".speaker-name strong").text(speaker[0].name);
+            $(".speaker-status p").text(speaker[0].status);
+            $(".modal-speaker p.text").text(speaker[0].content);
+            $('.modal-speaker-arent').attr('data-id',speaker.length - 1);
+       }
+       else
+       {
+         var id = id + 1;
+          $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[id].image)
+    $(".speaker-name strong").text(speaker[id].name);
+    $(".speaker-status p").text(speaker[id].status);
+    $(".modal-speaker p.text").text(speaker[id].content);
+    $('.modal-speaker-arent').attr('data-id',id);
+       }
+         $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[id].image)
+    $(".speaker-name strong").text(speaker[id].name);
+    $(".speaker-status p").text(speaker[id].status);
+    $(".modal-speaker p.text").text(speaker[id].content);
+    $('.modal-speaker-arent').attr('data-id',id);
+    }
+    else{
+         if (id == 0) {
+        
+            $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[speaker.length - 1].image)
+            $(".speaker-name strong").text(speaker[speaker.length - 1].name);
+            $(".speaker-status p").text(speaker[speaker.length - 1].status);
+            $(".modal-speaker p.text").text(speaker[speaker.length - 1].content);
+            $('.modal-speaker-arent').attr('data-id',speaker.length - 1);
+       }
+       else
+       {
+         var id = id - 1;
+          $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[id].image)
+    $(".speaker-name strong").text(speaker[id].name);
+    $(".speaker-status p").text(speaker[id].status);
+    $(".modal-speaker p.text").text(speaker[id].content);
+    $('.modal-speaker-arent').attr('data-id',id);
+       }
+         $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[id].image)
+    $(".speaker-name strong").text(speaker[id].name);
+    $(".speaker-status p").text(speaker[id].status);
+    $(".modal-speaker p.text").text(speaker[id].content);
+    $('.modal-speaker-arent').attr('data-id',id);
+    }
+    
+    $(".modal-bg-for-modal").fadeIn('fast');
+    
+});
+
+
+
+$('#user-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    center:true,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:300000,
+    autoplayHoverPause:true,
+    onChange:owlcall, 
+    responsive:{
+        0:{
+            items:5
+        },
+        600:{
+            items:5
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+
+
+function owlcall(e)
+{
+  //$(".owl-item").removeClass('second-item');
+  var index = $(".owl-item.center").index();
+  $("#user-carousel .owl-item.active:nth-child(4)").addClass('second-item');
+  console.log($(".owl-item.active").length + "d");
+}
+
+
+jQuery(document).ready(function($) {
+$("#prev-owl-5").click(function(event) {
+console.log("next");
+       $('#user-carousel').trigger('next.owl.carousel');
+});
+
+$("#next-owl-5").click(function(event) {
+    console.log("prev");
+       $('#user-carousel').trigger('prev.owl.carousel');
+});
 });
