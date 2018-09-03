@@ -1,0 +1,174 @@
+@import "_plugins/variable";
+
+.user-canvas
+{
+	margin: 0 auto;
+	overflow: visible;
+
+}
+.user-list
+{
+	padding-top: 300px !important;
+	.container{
+		position: relative;
+	}
+}
+#user-carousel-slick
+{
+	widows: 100%;
+	overflow: visible !important;
+	width: 600px;
+	clear: both;
+	margin:0 auto;
+
+
+.slick-slide
+{
+
+&.slick-center
+	{
+		.frofile
+		{
+			padding-top: 0px;
+			img{
+				min-height: 100px;
+				height: 100px;
+				position: relative;
+			}
+		}
+
+.content-parent{
+		display: block;
+		min-width: 600px;
+		position: relative;
+		left: -240px;
+	}
+
+	}
+
+
+
+	.content-parent{
+		display: none;
+	}
+.frofile
+{
+	padding-top: 20px;
+	img{
+		@include transition(.5s ease);
+		position: relative;
+		margin: 0 auto;
+		border-radius: 100%;
+		max-height: 60px;
+		height: 65px;
+	}
+}
+
+
+
+
+
+p.name{
+	font-family: $ninbulsan-bold;
+	 color: #010022;
+	 margin-top: 20px;
+	 margin-bottom: 0px !important;
+	 font-size: 22px;
+}
+p.status{
+	letter-spacing: 0.5px;
+  text-align: center;
+  color: #384670;
+  font-size: 18px;
+  font-family: $ninbulsan;
+}
+	
+
+	.quot p{
+		font-family: lucida_bold;
+		 color: #384670;
+		 font-size: 40px;
+		 margin-bottom: 0px !important
+	}
+
+	.content{
+		min-height: 100px;
+
+	 p{
+		line-height: 1.43;
+  letter-spacing: 0.6px;
+  text-align: center;
+  font-family: $ninbulsan;
+  color: #384670;
+	}
+
+}
+}
+
+.slick-dots
+{
+	display: flex;
+	margin: 0 auto;
+	widows: 100%;
+	padding-top: 20px;
+	justify-content:center;
+	position: relative;
+	li{
+		float: left;
+		list-style: none;
+		padding: 5px;
+		button{
+			height: 9px;
+			width: 9px;
+			display: block;
+			font-size: 0px;
+			border:0px solid transparent;
+			background-color: #787f97;
+		}
+	}
+}
+
+
+
+
+}
+
+
+.btn-carousel
+{
+	position: absolute;
+	top: 50%;
+	&.prev{
+		left: 10px;
+	}
+	&.next{
+		right: 10px;
+	}
+}
+.explore 
+{
+	margin-bottom: 60px;
+}
+
+
+.linear{
+	width: 100%;
+	.linear-line
+	{
+		width: 150px;
+		height: 3px;
+		background: #4d7a92;
+		display: block;
+	}
+	button{
+		display: flex;
+		margin: 0 auto;
+		position: relative;
+		font-size: 14px;
+
+		i{
+			font-size: 22px;
+			position: relative;
+		}
+	}
+}

@@ -78,83 +78,37 @@ h1 {
 
 <section>
 <div class="slider">
-	<div>
+	<div class="slider-s">
 		<article>
-			<div class="col-xs-5 img-box">
-				<img src="http://placehold.it/200x385" alt="" />		
-			</div>
-			<div class="col-xs-7">
-				<h1>1</h1>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quos iusto praesentium, vitae officia similique, quo sapiente obcaecati modi quia laborum facere. Aut odit fugit architecto aperiam nam distinctio, debitis!
-			</div>
+			<h1>1</h1>
 		</article>
 	</div>
-	<div>
+		<div class="slider-s">
 		<article>
-			<div class="col-xs-5 img-box">
-				<img src="http://placehold.it/200x385" alt="" />		
-			</div>
-			<div class="col-xs-7">
-				<h1>2</h1>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quos iusto praesentium, vitae officia similique, quo sapiente obcaecati modi quia laborum facere. Aut odit fugit architecto aperiam nam distinctio, debitis!
-			</div>
+			<h1>2</h1>
 		</article>
 	</div>
-	<div>
+		<div class="slider-s">
 		<article>
-			<div class="col-xs-5 img-box">
-				<img src="http://placehold.it/200x385" alt="" />		
-			</div>
-			<div class="col-xs-7">
-				<h1>3</h1>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quos iusto praesentium, vitae officia similique, quo sapiente obcaecati modi quia laborum facere. Aut odit fugit architecto aperiam nam distinctio, debitis!
-			</div>
+			<h1>3</h1>
 		</article>
 	</div>
-	<div>
+		<div class="slider-s">
 		<article>
-			<div class="col-xs-5 img-box">
-				<img src="http://placehold.it/200x385" alt="" />		
-			</div>
-			<div class="col-xs-7">
-				<h1>4</h1>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quos iusto praesentium, vitae officia similique, quo sapiente obcaecati modi quia laborum facere. Aut odit fugit architecto aperiam nam distinctio, debitis!
-			</div>
+			<h1>4</h1>
 		</article>
 	</div>
-	<div>
+		<div class="slider-s">
 		<article>
-			<div class="col-xs-5 img-box">
-				<img src="http://placehold.it/200x385" alt="" />		
-			</div>
-			<div class="col-xs-7">
-				<h1>4</h1>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quos iusto praesentium, vitae officia similique, quo sapiente obcaecati modi quia laborum facere. Aut odit fugit architecto aperiam nam distinctio, debitis!
-			</div>
+			<h1>5</h1>
 		</article>
 	</div>
-		<div>
+		<div class="slider-s">
 		<article>
-			<div class="col-xs-5 img-box">
-				<img src="http://placehold.it/200x385" alt="" />		
-			</div>
-			<div class="col-xs-7">
-				<h1>4</h1>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quos iusto praesentium, vitae officia similique, quo sapiente obcaecati modi quia laborum facere. Aut odit fugit architecto aperiam nam distinctio, debitis!
-			</div>
+			<h1>6</h1>
 		</article>
 	</div>
-		<div>
-		<article>
-			<div class="col-xs-5 img-box">
-				<img src="http://placehold.it/200x385" alt="" />		
-			</div>
-			<div class="col-xs-7">
-				<h1>4</h1>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quos iusto praesentium, vitae officia similique, quo sapiente obcaecati modi quia laborum facere. Aut odit fugit architecto aperiam nam distinctio, debitis!
-			</div>
-		</article>
-	</div>
+	
 </div>
 </section>
 
@@ -181,8 +135,11 @@ responsive: [{
 });
 
 // On before slide change
-$('.slider').on('thisChange', function(event, slick, currentSlide, nextSlide){
-  $(".slick-active:nth-child(2)").css("background","red")
+$('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+	 $(".slick-active").css("background","transparent")
+	var index = $(".slick-center").index() 
+	console.log(index)
+  $(".slick-active:nth-child("+index+")").css("background","red")
 });
 
       

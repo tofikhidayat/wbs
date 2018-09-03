@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.user-canvas {
+  margin: 0 auto;
+  overflow: visible; }
+
+#user-carousel {
+  widows: 100%;
+  overflow: visible !important;
+  width: 600px;
+  clear: both;
+  margin: 0 auto; }
+  #user-carousel .item.slick-center .frofile {
+    padding-top: 0px; }
+    #user-carousel .item.slick-center .frofile img {
+      max-width: 100px;
+      min-height: 100px;
+      min-width: 100px;
+      max-width: 100px;
+      position: relative; }
+  #user-carousel .item.slick-center .content-parent {
+    display: block;
+    min-width: 600px;
+    position: relative;
+    left: -250px; }
+  #user-carousel .item .content-parent {
+    display: none; }
+  #user-carousel .item .frofile {
+    padding-top: 20px; }
+    #user-carousel .item .frofile img {
+      -webkit-transition: 0.5s ease;
+      -moz-transition: 0.5s ease;
+      -o-transition: 0.5s ease;
+      -ms-transition: 0.5s ease;
+      transition: 0.5s ease;
+      position: relative;
+      margin: 0 auto;
+      border-radius: 100%;
+      max-height: 70px;
+      max-width: 70px; }
+  #user-carousel .slick-dots {
+    display: flex;
+    margin: 0 auto;
+    widows: 100%;
+    padding-top: 20px;
+    justify-content: center;
+    position: relative; }
+    #user-carousel .slick-dots li {
+      float: left;
+      list-style: none;
+      padding: 5px; }
+      #user-carousel .slick-dots li button {
+        height: 9px;
+        width: 9px;
+        display: block;
+        font-size: 0px;
+        border: 0px solid transparent;
+        background-color: #787f97; }
+
+/*# sourceMappingURL=sample.css.map */

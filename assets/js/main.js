@@ -366,3 +366,28 @@ $("#next-owl-5").click(function(event) {
        $('#user-carousel').trigger('prev.owl.carousel');
 });
 });
+
+jQuery(document).ready(function($) {
+
+  $('#user-carousel-slick').slick({
+  //dots: true,
+  infinite: true,
+  centerMode: true,
+  dots: true,
+  centerPadding: '0',
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay: true,
+  nextArrow: $('#next-user'),
+  prevArrow: $('#prev-user'),
+  speed: 500,
+responsive: [{
+
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 5
+      }
+
+    }]
+});
+});

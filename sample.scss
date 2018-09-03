@@ -1,0 +1,89 @@
+@import "assets/css/_plugins/mixin";
+
+.user-canvas
+{
+	margin: 0 auto;
+	overflow: visible;
+
+}
+#user-carousel
+{
+	widows: 100%;
+	overflow: visible !important;
+	width: 600px;
+	clear: both;
+	margin:0 auto;
+
+
+.item 
+{
+&.slick-center
+	{
+		.frofile
+		{
+			padding-top: 0px;
+			img{
+				max-width: 100px;
+				min-height: 100px;
+				min-width: 100px;
+				max-width: 100px;
+				position: relative;
+			}
+		}
+
+.content-parent{
+		display: block;
+		min-width: 600px;
+		position: relative;
+		left: -250px;
+	}
+
+	}
+
+
+
+	.content-parent{
+		display: none;
+	}
+.frofile
+{
+	padding-top: 20px;
+	img{
+		@include transition(.5s ease);
+		position: relative;
+		margin: 0 auto;
+		border-radius: 100%;
+		max-height: 70px;
+		max-width: 70px;
+	}
+}
+
+	
+
+}
+
+.slick-dots
+{
+	display: flex;
+	margin: 0 auto;
+	widows: 100%;
+	padding-top: 20px;
+	justify-content:center;
+	position: relative;
+	li{
+		float: left;
+		list-style: none;
+		padding: 5px;
+		button{
+			height: 9px;
+			width: 9px;
+			display: block;
+			font-size: 0px;
+			border:0px solid transparent;
+			background-color: #787f97;
+		}
+	}
+}
+
+}
+

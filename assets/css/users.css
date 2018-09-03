@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.user-canvas {
+  margin: 0 auto;
+  overflow: visible; }
+
+.user-list {
+  padding-top: 300px !important; }
+  .user-list .container {
+    position: relative; }
+
+#user-carousel-slick {
+  widows: 100%;
+  overflow: visible !important;
+  width: 600px;
+  clear: both;
+  margin: 0 auto; }
+  #user-carousel-slick .slick-slide.slick-center .frofile {
+    padding-top: 0px; }
+    #user-carousel-slick .slick-slide.slick-center .frofile img {
+      min-height: 100px;
+      height: 100px;
+      position: relative; }
+  #user-carousel-slick .slick-slide.slick-center .content-parent {
+    display: block;
+    min-width: 600px;
+    position: relative;
+    left: -240px; }
+  #user-carousel-slick .slick-slide .content-parent {
+    display: none; }
+  #user-carousel-slick .slick-slide .frofile {
+    padding-top: 20px; }
+    #user-carousel-slick .slick-slide .frofile img {
+      -webkit-transition: 0.5s ease;
+      -moz-transition: 0.5s ease;
+      -o-transition: 0.5s ease;
+      -ms-transition: 0.5s ease;
+      transition: 0.5s ease;
+      position: relative;
+      margin: 0 auto;
+      border-radius: 100%;
+      max-height: 60px;
+      height: 65px; }
+  #user-carousel-slick .slick-slide p.name {
+    font-family: ninbulsanbold;
+    color: #010022;
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+    font-size: 22px; }
+  #user-carousel-slick .slick-slide p.status {
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #384670;
+    font-size: 18px;
+    font-family: ninbulsanreg; }
+  #user-carousel-slick .slick-slide .quot p {
+    font-family: lucida_bold;
+    color: #384670;
+    font-size: 40px;
+    margin-bottom: 0px !important; }
+  #user-carousel-slick .slick-slide .content {
+    min-height: 100px; }
+    #user-carousel-slick .slick-slide .content p {
+      line-height: 1.43;
+      letter-spacing: 0.6px;
+      text-align: center;
+      font-family: ninbulsanreg;
+      color: #384670; }
+  #user-carousel-slick .slick-dots {
+    display: flex;
+    margin: 0 auto;
+    widows: 100%;
+    padding-top: 20px;
+    justify-content: center;
+    position: relative; }
+    #user-carousel-slick .slick-dots li {
+      float: left;
+      list-style: none;
+      padding: 5px; }
+      #user-carousel-slick .slick-dots li button {
+        height: 9px;
+        width: 9px;
+        display: block;
+        font-size: 0px;
+        border: 0px solid transparent;
+        background-color: #787f97; }
+
+.btn-carousel {
+  position: absolute;
+  top: 50%; }
+  .btn-carousel.prev {
+    left: 10px; }
+  .btn-carousel.next {
+    right: 10px; }
+
+.explore {
+  margin-bottom: 60px; }
+
+.linear {
+  width: 100%; }
+  .linear .linear-line {
+    width: 150px;
+    height: 3px;
+    background: #4d7a92;
+    display: block; }
+  .linear button {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    font-size: 14px; }
+    .linear button i {
+      font-size: 22px;
+      position: relative; }
+
+/*# sourceMappingURL=users.css.map */
