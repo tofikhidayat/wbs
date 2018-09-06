@@ -606,13 +606,39 @@ section.speaker-list
 		padding-right: -20px;
 		.name-user 
 		{
+			padding-top: 30px !important;
 			font-family: $knockout;
 			font-weight: normal;
 			font-size: 19px;
 			color: #010022;
 			letter-spacing: 1.4px;
 		}
+		a{
+			padding: 15px;
+			border-radius: 100%;
+			position: absolute;
+			z-index: 999;
+			bottom: 0;
+			max-height: 50px;
+			max-width: 50px;
+			left: 0;
+			right: 0;
+			margin:0 auto;display: flex;
+			@include box-shadow(0px 0px 20px 0px rgba(0,0,0,.1));
+			background: linear-gradient(248deg, #0b0a34,#4e49cb);
+			@include transition(.2s ease);
+				&:hover{
+					background-image: linear-gradient(89deg, #3F3CA6, #1A1854);
+				}
+			img{
+				position: relative;
+				top: -2px;
+				height: 19px;
+
+			}
+		}
 	}
+
 	.user-desc
 	{
 		font-family: $ninbulsan;
