@@ -3,7 +3,7 @@
 {
 section.banner .banner-canvas .text-title h1
 {
-	font-size: 60px !important;
+	font-size: 45px !important;
 }
 .banner .social-banner
 {
@@ -47,15 +47,18 @@ section.banner .banner-canvas .text-title h1
 section.banner{
 	.banner-canvas 
 	{
-		padding-left: 15px !important;
+		padding-left: 10px !important;
 	}
 	.social-banner
 	{
 		width: 100%;
-		margin-top: -250px !important;
+		margin-top: -210px !important;
 		position: unset !important;
 		ul{
 			margin-top: 0px;
+			margin-left: -10px;
+			position: relative;
+			left: -10px;
 			justify-content:center;
 			display: flex;
 			align-items:center;
@@ -70,17 +73,17 @@ section.banner{
 				}
 				img{
 					width: 40px;
-					height: 40px;
+	
 				}
 			}
 		}
 	}
 	.spot{
-		font-size: 20px;
+		font-size: 18px;
 
 	}
 	.date{
-		font-size: 40px;
+		font-size: 32px;
 	}
 }
 	
@@ -217,5 +220,36 @@ section.attend-list .owl-carousel
 		padding-top: 15px;
 		min-height: 60px;
 		width: 100px !important;
+}
+
+section.banner
+{
+	min-height: 710px;
+	max-height: 710px;
+}
+.mogos .bg-tan .image-state
+{
+	min-height: 285px;
+}
+section.about p{
+	font-style: 14px !important;
+}
+.become .speaker .col-md-6.col-xs-12.float-left
+{
+	margin-top: 30px !important;
+}
+.become .speaker .col-md-6.col-xs-12.float-left:first-child{
+	margin-top: 200px !important;
+}
+section.become .md-title
+{
+	padding-top: 0px !important;
+}
+section.subscribe-me
+{
+	top: -65px !important;
+}
+.user-list{
+	padding-top: 0px !important;
 }
 }
