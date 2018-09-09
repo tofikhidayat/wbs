@@ -619,11 +619,13 @@ section.speaker-list
 		padding-right: -20px;
 		.name-user 
 		{
-			padding-top: 10px !important;
+			padding-top: 0px !important;
 			font-family: $knockout;
 			font-weight: normal;
 			font-size: 19px;
 			color: #010022;
+			padding-left: 15px !important;
+			padding-right: 15px !important;
 			letter-spacing: 1.4px;
 		}
 		a{
@@ -1399,8 +1401,9 @@ footer
 
 
 .desc-user{
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	padding-top: 0px !important;
 }
 
 .item-content

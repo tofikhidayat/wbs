@@ -198,7 +198,7 @@ jQuery(document).ready(function($) {
 for (var i = 0; i < speaker.length; i++) {
    var animate  = ['0','50','100','150','200'];
    var target = $("#speaker-content");
-   var template1 = "<div class='col-setting-5 float-left speaker-container' data-id='"+i+"'  data-aos='fade-up' data-aos-delay='"+animate[Math.floor(Math.random() * 4) + 0]+"'> <div class='card rounded-0 border-0 pointer user-static'><div class=' p-4 position-relative '>";
+   var template1 = "<div class='col-setting-5 float-left speaker-container' data-id='"+i+"'  data-aos='fade-up' data-aos-delay='"+animate[Math.floor(Math.random() * 4) + 0]+"'> <div class='card rounded-0 border-0 pointer user-static'><div class=' pb-0 px-4 position-relative  pb-3 '>";
    var template2 = "<img src='assets/images/Series Speakers/"+speaker[i].image+"' class='col-12 border-0 p-0' ><a href='#' title='' class='btn btn-gradient'> <img src='assets/images/linkedin-logo.svg' > </a>";
    var template3 = "</div><div class='pb-4'><div class='text-center'><div class='name-user col-12 p-0'>";
    var template4 = "<span class='user-name'><strong>"+speaker[i].name+"</strong></span>";
@@ -218,7 +218,7 @@ jQuery(document).ready(function($) {
 for (var i = 0; i < 8; i++) {
    var animate   = ['0','50','100','150','200'];
    var target    = $("#speaker-index");
-    var template1 = "<div class='col-setting-5 float-left speaker-container' data-id='"+i+"'  data-aos='fade-up' data-aos-delay='"+animate[Math.floor(Math.random() * 4) + 0]+"'> <div class='card rounded-0 border-0 pointer user-static'><div class=' p-4 position-relative '>";
+    var template1 = "<div class='col-setting-5 float-left speaker-container' data-id='"+i+"'  data-aos='fade-up' data-aos-delay='"+animate[Math.floor(Math.random() * 4) + 0]+"'> <div class='card rounded-0 border-0 pointer user-static'><div class=' pb-0 px-4 position-relative  pb-3 '>";
    var template2 = "<img src='assets/images/Series Speakers/"+speaker[i].image+"' class='col-12 border-0 p-0' ><a href='#' title='' class='btn btn-gradient'> <img src='assets/images/linkedin-logo.svg' > </a>";
    var template3 = "</div><div class='pb-4'><div class='text-center'><div class='name-user col-12 p-0'>";
    var template4 = "<span class='user-name'><strong>"+speaker[i].name+"</strong></span>";

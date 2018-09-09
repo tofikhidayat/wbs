@@ -63,6 +63,9 @@
     font-size: 14px !important; }
 
   section.tab-plan .tab-plan li {
-    padding-top: 50px; } }
+    padding-top: 50px; }
+
+  section.banner .banner-list .wrap {
+    min-height: 412px !important; } }
 
 /*# sourceMappingURL=bookticket-res.css.map */

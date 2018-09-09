@@ -455,11 +455,13 @@ section.speaker-list .row.content {
   margin-left: -30px;
   padding-right: -20px; }
   section.speaker-list .row.content .name-user {
-    padding-top: 10px !important;
+    padding-top: 0px !important;
     font-family: knocout;
     font-weight: normal;
     font-size: 19px;
     color: #010022;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     letter-spacing: 1.4px; }
   section.speaker-list .row.content a {
     padding: 15px;
@@ -1029,8 +1031,9 @@ footer {
   section.become .speaker-list {
     padding-top: 100px; } }
 .desc-user {
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 0px !important; }
 
 .item-content img {
   -webkit-filter: grayscale(100%) !important;
