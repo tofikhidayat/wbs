@@ -92,7 +92,7 @@
     footer .foot-social ul li img {
       max-width: 30px;
       max-height: 30px; } }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 550px) {
   .col-setting-5 {
     width: 100%;
     max-width: 100%; }

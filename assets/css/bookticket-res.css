@@ -28,7 +28,7 @@
   .content-list .col-10.float-left {
     min-width: 100%;
     max-width: 100%; } }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 550px) {
   section.banner .banner-list-dump {
     padding-top: 0px !important; }
 

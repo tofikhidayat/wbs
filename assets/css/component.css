@@ -187,7 +187,8 @@
 footer .navbar-brand .logo {
   background: #302E53 !important;
   border: 1.48px solid #302E53 !important;
-  color: #fff !important; }
+  color: #fff !important;
+  padding-bottom: 0px !important; }
   footer .navbar-brand .logo .logo-name {
     color: #fff; }
 footer .navbar-brand .logo-chevrom {
@@ -195,7 +196,7 @@ footer .navbar-brand .logo-chevrom {
   footer .navbar-brand .logo-chevrom:before {
     background: #4B4C6E !important; }
 footer .navbar-brand .logo-list {
-  display: block; }
+  display: none; }
   footer .navbar-brand .logo-list ul {
     top: 10px;
     background: #302E53 !important;
@@ -205,7 +206,11 @@ footer .navbar-brand .logo-list {
     margin-bottom: 0px !important; }
     footer .navbar-brand .logo-list ul li {
       background: #302E53 !important;
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
       color: #fff; }
+      footer .navbar-brand .logo-list ul li a {
+        color: #fff !important; }
       footer .navbar-brand .logo-list ul li:hover {
         color: #CCCCCC; }
 
@@ -376,7 +381,7 @@ footer .navbar-brand .logo-list {
     left: 0;
     right: 0;
     margin: 0 auto;
-    display: flex;
+    display: none !important;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     -o-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
@@ -457,5 +462,12 @@ footer .navbar-brand .logo-list {
   height: 100%;
   z-index: -1;
   background: transparent; }
+
+@media screen and (min-width: 1440px) {
+  .modal-speaker .text {
+    font-size: 16px !important; }
+
+  .modal-speaker .speaker-status p {
+    font-size: 16px !important; } }
 
 /*# sourceMappingURL=component.css.map */

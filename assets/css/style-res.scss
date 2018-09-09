@@ -1,6 +1,72 @@
 @import "_plugins/variable";
 
 
+
+@media screen and(min-width: 1800px)
+{
+	.container
+	{
+		max-width: 1440px !important;
+	}
+	section.speaker-list .card
+	{
+		min-height: 550px !important;
+	}
+}
+
+
+@media screen and(min-width: 1440px)
+{
+	.about-text 
+	{
+		.after-to-big
+		{
+			width: 100% !important;
+			min-width: 100% !important;
+			max-width: 1005 !important;
+			flex: 0 0 100%;
+		}
+	}
+
+
+
+section.become .full .text_def, section.become .standart .text_def{
+	font-size: 16px !important;
+}
+section.discussion .text-default
+	{
+		font-family: $ninbulsan;
+		font-size: 18px;
+
+
+	}
+
+	section.blog .card-blog .card-content .blog-title
+	{
+		font-size: 20px !important;
+	}
+	section.blog .card-blog .card-content .blog-text
+	{
+		font-size: 14px !important;
+	}
+	section.blog .card-blog .card-content
+	{
+		max-height: 330px !important;
+		min-height: 330px !important;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and(max-width: 800px){
 	.banner .banner-content .col-md-event .event-list:last-child, .banner .banner-content .col-md-event .event-list:first-child
 	{
@@ -161,9 +227,12 @@ section.become {
 	}
 }
 } 
-@media screen and(max-width: 420px)
+@media screen and(max-width: 550px)
 {
-
+section.become .card-become.card-2 h1
+{
+	font-size: 28px !important;
+}
 	.banner .banner-canvas .image-title img
 	{
 		width: 165px;
@@ -289,5 +358,167 @@ section.what-happenings .event-code-list
 	max-width: 1005 !important;
 	flex:0 0  100%;
 }
+.speaker-list
+{
+	.col-md-6.col-12.float-right
+	{
+		.float-right
+		{
+			float: left !important;
+			a{
+				margin-top: 10px !important;
+			}
+		}
+	}
+}
+.discussion .list-discussion
+{
+	width: 50% !important;
+	min-width: 50% !important;
+	max-width: 50% !important;
+}
+section.sponsor .navbar-tabs{
+	@include overflow-x(scroll);
+	ul{
+		min-width: 500px;
+		li{
+			width: 120px;
+		}
+	} 
+}
+section.sponsor .list-sponsor
+{
+	width: 50% !important;
+	min-width: 50% !important;
+	max-width: 50% !important;
+	flex: 0 0 50%;
+}
+section.become{
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+.card-become.card-1 h1
+{
+	font-size: 28px !important;
+}
+}
+.become{
+
+.speaker{
+
+padding-bottom: 0px !important;
+ .container
+{
+	padding-right: 15px !important;
+}
+.col-md-6.col-xs-12.float-left
+{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+}
+}
+
+section.become .speaker-list
+{
+	padding-top: 0px !important;
+}
+
+section.become .user-def
+{
+	width: 100% !important;
+	min-width: 100% !important;
+	max-width: 100% !important;
+	flex: 0 0 100% !important;
 
 }
+
+
+section.general button{
+	position: relative;
+	z-index: 999;
+	padding-left: 70px !important;
+	padding-right: 70px !important;
+	overflow: hidden;
+}
+.general
+{
+	.container.pt-5
+	{
+		padding-top: 20px !important;
+	}
+}
+section.subscribe h1
+{
+	font-size: 25px !important;
+}
+section.subscribe h2
+{
+	font-size: 14px !important;
+}
+.blog .blog-list
+{
+	width: 100% !important;
+	min-width: 1005 !important;
+	flex:0 0  100%;
+	max-width: 100% !important;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+section.blog .card-blog .card-foot
+{
+	.col-4.float-left{
+		float: none !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		flex: 0 0  100% !important;
+		display: block !important;
+		min-width: 100% !important;
+
+	}
+	
+}
+section.previous-event .col-md-4.float-right 
+{
+
+margin-top: -20px !important;
+.pt-5.mt-3
+{
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+}
+}
+section.previous-event .canvas .item .item-content .action
+{
+
+}
+section.previous-event .canvas .item .item-content .action a
+{
+position: relative !important;
+bottom: -180px !important;	
+}
+section.previous-event .canvas .img-endorse
+{
+	padding-top: 10px !important;
+}
+section.previous-event .canvas .item .item-content
+{
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+section.previous-event .canvas .item img
+{
+	max-height: 50px !important;
+	width: auto !important;
+}
+section.previous-event .canvas .endorse
+{
+	padding-bottom: 0px !important;
+	padding-top: 20px !important;
+}
+
+section.previous-event{
+	.action.mt-5.pt-5{
+		bottom: 60px !important;
+	}
+}
+} 

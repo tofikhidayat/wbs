@@ -12,7 +12,7 @@
   .mogos .canvas img {
     max-width: 100px !important;
     width: 100px; } }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 550px) {
   section.banner .banner-canvas {
     padding-left: 15px !important; }
   section.banner .social-banner {

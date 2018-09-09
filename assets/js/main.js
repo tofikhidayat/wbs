@@ -248,12 +248,22 @@ $(document).on('click', '.user-static', function(event) {
 });
 
 
-$(document).on('click', '#close-speaker,.modal-after', function(event) {
+$(document).on('click', '#close-speaker , .modal-after', function(event) {
     event.preventDefault();
     $(this).closest('.modal-speaker-arent').fadeOut('fast');
    
 
 });
+
+
+
+$(document).on('click', '.modal-after', function(event) {
+    event.preventDefault();
+    $(this).closest('.modal-speaker-arent').fadeOut('fast');
+   
+
+});
+
 
 
 
@@ -402,4 +412,24 @@ responsive: [
 
     ]
 });
+});
+
+//tab-pane
+$(".load-more").click(function(event) {
+  $(this).closest('.tab-pane').find('.all-speaker-list').toggleClass('d-none');
+  if ($(this).attr('show') == "true")
+  {
+    $(this).find('.text-button').text("LOAD MORE");
+    $(this).find('i').css('transform', 'rotate(0deg)');
+    
+       $(this).attr('show', 'false');
+  }
+  else
+  {
+     $(this).find('.text-button').text("LOAD LESS");
+    $(this).find('i').css('transform', 'rotate(180deg)');
+    $(this).attr('show', 'true');
+
+  }
+
 });

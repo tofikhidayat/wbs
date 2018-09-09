@@ -9,7 +9,7 @@
       display: none !important; }
     section.banner .endor {
       display: none !important; } }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 550px) {
   section.content .day {
     padding-bottom: 20px !important; }
     section.content .day span {
