@@ -381,13 +381,25 @@ jQuery(document).ready(function($) {
   nextArrow: $('#next-user'),
   prevArrow: $('#prev-user'),
   speed: 500,
-responsive: [{
+responsive: [
+{
 
       breakpoint: 992,
       settings: {
         slidesToShow: 5
       }
 
-    }]
+    },
+    {
+
+      breakpoint: 550,
+      settings: {
+        slidesToShow: 3
+      }
+
+    }
+
+
+    ]
 });
 });

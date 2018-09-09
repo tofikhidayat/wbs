@@ -1,0 +1,293 @@
+@import "_plugins/variable";
+
+
+@media screen and(max-width: 800px){
+	.banner .banner-content .col-md-event .event-list:last-child, .banner .banner-content .col-md-event .event-list:first-child
+	{
+		min-height: 450px !important;
+		max-height: 450px !important;
+	}
+	.banner .banner-content .col-md-event .event-list.now
+	{
+		min-height: 510px !important;		
+		max-height: 510px !important;
+		margin-top: -15px !important;
+		.align-middle.pt-5
+		{
+			padding-top: 1px !important;
+
+		}
+	}
+	.banner .ivent-header .col-md-6
+	{
+		width: 100% !important;
+		max-width: 100% !important;
+		min-width: 100% !important;
+		flex:unset !important;
+		p{
+			padding-left: 10px !important;
+			padding-right: 10px !important;
+			strong{
+				font-size: 14px !important;
+			}
+		}
+		img{
+			left: 0px;
+
+		}
+	}
+	.banner .banner-content .col-md-event .ivent-image
+	{
+		min-width: 100% !important;
+		max-width: 100% !important;
+		flex:unset !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.banner{
+		padding-bottom: 50px !important;
+		.banner-content
+		{
+			padding-bottom: 50px !important;
+		}
+
+	.social-banner
+	{
+		position: relative;
+		right: 0;
+		width: 100% !important;
+		ul{
+			position: relative;margin: 0 auto;
+			width: 350px !important;
+			min-width: 350px !important;
+			li{
+				float: left !important;
+				clear: unset !important;
+				padding-left: 10px;
+				img{
+					max-width: 38px;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+section.about a
+{
+	position: relative;
+	z-index: 9999;
+	width: 290px;
+	padding-right: 20px !important;
+}
+
+section.previous-event
+{
+	.btn-carousel
+	{
+		margin-top: 80px;
+	}
+}
+
+.what-happenings
+{
+	.event-code-list
+	{
+		width: 50%;
+		max-width: 50%;
+		min-width: 50%;
+		flex: 0 0 50%;
+	}
+}
+.sponsor
+{
+	.nav.nav-pills
+	{
+		@include overflow-x(hidden);
+	}
+	.list-sponsor 
+	{
+		width: 33.333%;
+		min-width: 33.33%;
+		max-width: 33.33%;
+	}
+}
+.discussion
+{
+	.list-discussion{
+		width: 33.33% !important;
+		min-width: 33.33% !important;
+		max-width: 33.33% !important;
+		flex:0 0  33.33%;
+	}
+}
+section.become {
+	.user-def
+	{
+		width: 50% !important;
+		min-width: 50% !important;
+		max-width: 50% !important;
+		flex: 0 0 50%;
+		min-height: 300px;
+		max-height: 300px;
+	}
+	.user-def-in
+	{
+	width: 100% !important;
+		min-width: 100% !important;
+		max-width: 100% !important;
+		flex: 0 0 100%;
+		min-height: 300px;
+		max-height: 300px;	
+	}
+}
+.blog 
+{
+	.blog-list
+	{
+		width: 50% !important;
+		min-width: 50% !important;
+		max-width: 50% !important;
+		flex: 0 0 50%;
+
+	}
+}
+} 
+@media screen and(max-width: 420px)
+{
+
+	.banner .banner-canvas .image-title img
+	{
+		width: 165px;
+	}
+	.banner .banner-canvas .text-title h1
+	{
+		font-size: 45px;
+	}
+	.banner .banner-content{
+		overflow: hidden;
+
+		.col-md-event
+	{
+
+		width: 100% !important;
+
+		flex: 0 0 100% !important;
+		min-width: 100% !important;
+		max-width: 100% !important;
+		margin-left: 10px !important;
+		margin-bottom: 20px !important;
+		padding-top: 0px !important;
+		margin-top: 20px !important;
+		padding-right: 15px !important;
+		&:first-child{
+			order:2;
+		}
+
+		.ivent-header
+		{
+
+			overflow: hidden;
+			img{
+				width: 100% !important;
+				max-height: 200px !important;
+				object-position:top ;
+				object-fit:cover;
+			}
+		}
+	}
+	
+}
+
+
+
+.banner .banner-content .col-md-event p 
+	{
+		&:first-child{
+			padding-top: 20px !important;
+		}
+		font-size: 14px !important;
+		padding-left: 35px !important;
+		strong{
+			font-size: 16px !important;
+		}
+
+	}
+
+.banner .banner-content .col-md-event .event-list.now .align-middle.pt-5
+{
+	&:first-child{
+		padding-top: 20px !important;
+	}
+}
+.banner .banner-content .col-md-event .event-list.now
+{
+	min-height: 450px !important;
+	height: 450px !important;
+	max-height: 450px !important;
+}
+.banner .social-banner ul
+{
+	width:300px !important;
+	min-width: 300px !important;
+}
+
+.banner .banner-content .col-md-event .event-list
+{
+margin-right:20px !important;
+
+}
+.speaker{
+	.container
+	{
+		overflow: hidden !important;
+		padding-right: 33px !important;
+	}
+ .canvas .canvas-dump .list-speaker{
+	padding: 15px !important;
+	overflow: hidden;
+	box-sizing:border-box;
+	}}
+
+section.about
+{
+
+	margin-top: -80px !important;
+}
+h1
+{
+	font-size: 42px !important;
+}
+.button-to-owl
+{
+	position: absolute;
+	bottom: -50px;
+	right: 0;
+	z-index: 9999;
+	.float-right 
+	{
+		padding-top: 0px !important;
+		button{margin-top: 0px !important;}
+	}
+}
+section.what-happenings
+{
+	padding-top: 100px !important	;
+}
+section.what-happenings .event-code-list
+{
+	width: 100% !important;
+	min-width: 100% !important;
+	max-width: 1005 !important;
+	flex:0 0  100%;
+}
+
+}

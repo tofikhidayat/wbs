@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@media screen and (max-width: 800px) {
+  footer {
+    display: mone !important; } }
+
+/*# sourceMappingURL=res-for-all.css.map */

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@media screen and (max-width: 800px) {
+  section.banner {
+    min-height: unset; }
+    section.banner .container-fluid.pt-3.mt-5 {
+      display: none !important; }
+    section.banner .endor {
+      display: none !important; } }
+@media screen and (max-width: 420px) {
+  section.content .day {
+    padding-bottom: 20px !important; }
+    section.content .day span {
+      font-size: 27px !important; }
+
+  section.banner {
+    padding-bottom: 50px !important; }
+    section.banner h1 {
+      font-size: 28px !important; }
+    section.banner section.banner .trescon-logo img {
+      max-width: 100px; }
+    section.banner .banner-list-dump {
+      padding-top: 40px !important; }
+
+  .content li.image .ket {
+    width: 100%;
+    padding-left: 0px !important; }
+    .content li.image .ket .col-12 {
+      padding-left: 0px !important; }
+  .content .col-md-10.offset-md-2 {
+    max-width: 100% !important; }
+  .content .float-left.col-9 {
+    width: 100% !important;
+    max-width: 100% !important; }
+  .content .float-left.col-3 {
+    width: 100% !important;
+    max-width: 100% !important; }
+    .content .float-left.col-3 p {
+      text-align: left !important; } }
+
+/*# sourceMappingURL=agenda-responsive.css.map */

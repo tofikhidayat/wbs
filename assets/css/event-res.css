@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@media screen and (max-width: 800px) {
+  section.banner .banner-canvas .text-title h1 {
+    font-size: 60px !important; }
+
+  .banner .social-banner {
+    right: 0px; }
+
+  .mogos .canvas img {
+    max-width: 100px !important;
+    width: 100px; } }
+@media screen and (max-width: 420px) {
+  section.banner .banner-canvas {
+    padding-left: 15px !important; }
+  section.banner .social-banner {
+    width: 100%;
+    margin-top: -250px !important;
+    position: unset !important; }
+    section.banner .social-banner ul {
+      margin-top: 0px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      position: relative;
+      width: 330px;
+      margin: 0 auto; }
+      section.banner .social-banner ul li {
+        float: none;
+        padding-left: 15px; }
+        section.banner .social-banner ul li:first-child {
+          padding-left: 0px; }
+        section.banner .social-banner ul li img {
+          width: 40px;
+          height: 40px; }
+  section.banner .spot {
+    font-size: 20px; }
+  section.banner .date {
+    font-size: 40px; }
+
+  .buy-ticket .col-md-6.col-6.float-left {
+    width: 100% !important;
+    max-width: 100% !important;
+    float: none;
+    clear: both;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  .map {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important; }
+
+  .speaker-list .col-md-6.col-12.float-right .float-right {
+    float: left !important; }
+    .speaker-list .col-md-6.col-12.float-right .float-right a {
+      margin-top: 0px !important; }
+
+  .maps {
+    padding-bottom: 0px !important; }
+    .maps .row {
+      min-width: 100%; }
+      .maps .row .col-6.float-left {
+        width: 100% !important;
+        max-width: 100% !important;
+        float: none !important;
+        clear: both;
+        flex: unset !important;
+        padding-right: 0px !important; }
+        .maps .row .col-6.float-left img {
+          width: 100%;
+          height: auto;
+          max-height: auto; }
+
+  section.sponsor .list-sponsor {
+    width: 50% !important; }
+
+  section.attend-list .owl-carousel {
+    padding: 15px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+    section.attend-list .owl-carousel .ixon-list {
+      width: 35px !important; }
+    section.attend-list .owl-carousel li .float-left:last-child {
+      max-width: calc(100% - 40px); }
+
+  .attend-list .btn-carousel {
+    bottom: 70px;
+    z-index: 9999; }
+
+  .become .col-md-6.col-xs-12.float-left {
+    margin-top: 50px; }
+
+  #user-carousel-slick {
+    width: 100% !important;
+    max-width: 100% !important; }
+
+  .user-list .btn-carousel {
+    top: calc(50% + 350px); }
+
+  .about {
+    padding-top: 200px !important; }
+
+  .col-4.float-left {
+    display: block !important; }
+
+  .mogos .col-12.P-0.pb-2, .mogos .float-left.col-4 {
+    padding-left: 0px !important;
+    padding-top: 10px; }
+  .mogos .float-left.pl-3 {
+    padding-left: 0px !important;
+    width: 100%;
+    clear: both;
+    float: none !important; }
+  .mogos .float-left.pl-0.pl-md-3.col-8 {
+    width: 100% !important;
+    max-width: 100% !important; }
+
+  .mogos .btn-kampre {
+    position: relative;
+    top: 100px !important;
+    padding-left: 10px !important;
+    right: 80px !important;
+    padding-top: 15px;
+    min-height: 60px;
+    width: 100px !important; }
+    .mogos .btn-kampre .canvas {
+      padding-bottom: 20px !important; } }
+
+/*# sourceMappingURL=event-res.css.map */

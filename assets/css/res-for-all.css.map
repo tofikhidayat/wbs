@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,CACA;EACC,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;ACJX,oCACA;EAEA,MAAM;IACL,OAAO,EAAE,eAAe",
+"sources": ["_plugins/mixin.scss","res-for-all.scss"],
+"names": [],
+"file": "res-for-all.css"
+}

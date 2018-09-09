@@ -2,7 +2,7 @@
 <html>
    <head>
       <meta charset="utf-8">
-      <meta name="view-port" content="width=device-width">
+      <meta name="viewport" content="width=device-width , initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="description" content="World Blockchain Summit is a global series of elite gatherings that takes place around the world including Kenya, Russia, Canada, Singapore, Germany, India, UAE, Brazil and Saudi Arabia." />
@@ -14,8 +14,10 @@
       <link rel="stylesheet" type="text/css" href="./assets/vendor/bootstrap/css/bootstrap-reboot.min.css">
       <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
       <link rel="stylesheet" type="text/css" href="./assets/css/bookticket.css">
+       <link rel="stylesheet" type="text/css" href="./assets/css/bookticket-res.css">
       <link rel="stylesheet" type="text/css" href="./assets/css/component.css">
-      <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="./assets/css/component-res.css">
+       <link rel="stylesheet" type="text/css" href="./assets/css/bookticket-res.css">      <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.3/aos.css">
    </head>
    <body>
@@ -47,9 +49,17 @@
 </ul>
                   </div>
                </div>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                 <form class="float-right d-block d-lg-none  ml-auto mr-2">
+                           <input type="text" name="">
+                           <a class="nav-link  pr-0" href="#" id="search-bar-top">
+                           <i class="fa fa-search "></i>
+                           </a>
+                        </form>
+
+               <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
+
                <div class="collapse navbar-collapse " id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active">
@@ -71,7 +81,7 @@
                         <a class="nav-link btn btn-md  btn-custom btn-gradient btn-select transition-slow" href="#">Register</a>
                      </li>
                      <li class="nav-item search pr-0">
-                        <form>
+                        <form class="d-none d-lg-block">
                            <input type="text" name="">
                            <a class="nav-link  pr-0" href="#" id="search-bar-top">
                            <i class="fa fa-search "></i>
@@ -176,7 +186,7 @@
       <section class="tab-plan clearfix mt-5 pt-5">
          <div class="canvas pr-0">
             <div class=" ol-12 pr-0 mr-0 pl-0 ml-0">
-               <div class="col-md-11 offset-1 pr-0 mr-0 pl-0">
+               <div class="col-md-11 offset-1 pr-0 mr-0 pl-0 over-text overflow-scroll">
                   <ul class="nav nav-pills mb-3 tab-plan pr-0 mr-0" id="pills-tab " role="tablist">
                      <li class="nav-item">
                         <a class="nav-link " id="pills-home-tab" data-toggle="pill" href="#delegate" role="tab" aria-controls="pills-home" aria-selected="true">Delegate Pass</a>
@@ -640,6 +650,41 @@
       </div>
    </div>
 
+    <div class="foot-social float-right d-block d-lg-none pt-0 mt-0 mb-5">
+          <ul>
+                  <li data-aos="fade-left" data-aos-delay="50" data-aos-offset="-1000">
+                     <a href="#">
+                        <img src="assets/images/social/facebook.svg">
+                     </a>
+                  </li>
+                  <li data-aos="fade-left" data-aos-delay="50" data-aos-offset="-1000">
+                     <a href="#">
+                        <img src="assets/images/social/instagram.svg">
+                     </a>
+                  </li>
+                  <li data-aos="fade-left" data-aos-delay="10" data-aos-offset="-1000">
+                     <a href="#">
+                        <img src="assets/images/social/tw.svg">
+                     </a>
+                  </li >
+                  <li data-aos="fade-left" data-aos-delay="200" data-aos-offset="-1000">
+                     <a href="#">
+                        <img src="assets/images/social/telegram.svg">
+                     </a>
+                  </li>
+                  <li data-aos="fade-left" data-aos-delay="100" data-aos-offset="-1000">
+                     <a href="#">
+                        <img src="assets/images/social/linkedin.svg">
+                     </a>
+                  </li>
+                  <li data-aos="fade-left" data-aos-delay="100" data-aos-offset="-1000">
+                     <a href="#">
+                        <img src="assets/images/social/youtube.svg">
+                     </a>
+                  </li>
+               </ul>
+      </div>
+
 </div>
 
 <div class="col-md-6 col-12 p-0 footer-content float-left ">
@@ -664,7 +709,7 @@
          </ul>
       </div>
 
-      <div class="foot-social">
+      <div class="foot-social d-none d-lg-block">
           <ul>
                   <li data-aos="fade-left" data-aos-delay="50" data-aos-offset="-1000">
                      <a href="#">

@@ -126,7 +126,7 @@ header {
       color: #fff;
       font-family: knocout;
       letter-spacing: 5px;
-      font-size: 64	px;
+      font-size: 64px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -159,6 +159,13 @@ header {
       .banner .banner-content .col-md-event .event-list {
         border-radius: 2px !important;
         border: 0 !important; }
+        .banner .banner-content .col-md-event .event-list:last-child, .banner .banner-content .col-md-event .event-list:first-child {
+          min-height: 315px;
+          max-height: 315px;
+          overflow: hidden; }
+        .banner .banner-content .col-md-event .event-list.now {
+          min-height: 360px;
+          max-height: 360px; }
       .banner .banner-content .col-md-event p {
         color: #201E34;
         font-size: 18px;
@@ -288,6 +295,8 @@ section.about {
     letter-spacing: 1.4px;
     padding-bottom: 18px !important;
     font-family: ninbulsanreg;
+    width: 400px;
+    margin: 0 auto;
     font-size: 12px; }
     section.about a:hover {
       color: #fff; }
@@ -943,6 +952,31 @@ footer {
   overflow: hidden;
   background-repeat: no-repeat;
   clear: both; }
+  footer .foot-social {
+    padding-top: 105px; }
+    footer .foot-social ul li {
+      padding: 10px 10px;
+      float: left;
+      list-style: none; }
+      footer .foot-social ul li img {
+        max-width: 50px;
+        border-radius: 100%;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        -ms-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        -webkit-transition: 0.2s ease;
+        -moz-transition: 0.2s ease;
+        -o-transition: 0.2s ease;
+        -ms-transition: 0.2s ease;
+        transition: 0.2s ease; }
+        footer .foot-social ul li img:hover {
+          box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+          -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+          -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+          -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+          -ms-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1); }
   footer .foot-content {
     padding-top: 50px;
     color: #64658A;
@@ -971,29 +1005,6 @@ footer {
     footer .foot-sec .foot-nav, footer .foot-sec .foot-social {
       font-family: ninbulsanbold !important;
       padding-top: 56px; }
-      footer .foot-sec .foot-nav.foot-social, footer .foot-sec .foot-social.foot-social {
-        padding-top: 105px; }
-        footer .foot-sec .foot-nav.foot-social ul li, footer .foot-sec .foot-social.foot-social ul li {
-          padding: 10px 10px; }
-          footer .foot-sec .foot-nav.foot-social ul li img, footer .foot-sec .foot-social.foot-social ul li img {
-            max-width: 50px;
-            border-radius: 100%;
-            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-            -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-            -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-            -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-            -ms-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-            -webkit-transition: 0.2s ease;
-            -moz-transition: 0.2s ease;
-            -o-transition: 0.2s ease;
-            -ms-transition: 0.2s ease;
-            transition: 0.2s ease; }
-            footer .foot-sec .foot-nav.foot-social ul li img:hover, footer .foot-sec .foot-social.foot-social ul li img:hover {
-              box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
-              -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
-              -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
-              -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
-              -ms-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1); }
       footer .foot-sec .foot-nav ul, footer .foot-sec .foot-social ul {
         clear: both;
         overflow: hidden; }

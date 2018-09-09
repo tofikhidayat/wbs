@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,CACA;EACC,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;ACFX,oCAAmC;EAClC,kDACA;IACC,SAAS,EAAE,eAAe;IAC1B,SAAS,EAAE,eAAe;IAC1B,IAAI,EAAC,gBAAgB;IACrB,OAAO,EAAE,CAAC",
+"sources": ["_plugins/mixin.scss","stye-res.scss"],
+"names": [],
+"file": "stye-res.css"
+}

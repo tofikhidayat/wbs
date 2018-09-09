@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@media screen and (max-width: 800px) {
+  .banner .banner-content .col-md-event .ivent-image {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    flex: unset !important;
+    opacity: 0; } }
+
+/*# sourceMappingURL=stye-res.css.map */
