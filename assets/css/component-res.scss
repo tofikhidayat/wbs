@@ -204,4 +204,19 @@ footer{
 	{
 		padding-left: 30px !important;
 	}
+
+	.modal-speaker { 
+		.modal-container .modal-bg .speaker-name
+	{
+		padding-top: 0px !important;
+	}
+	.speaker-content{
+		padding-top: 0px !important;
+	}
+	.container-fluid.p-3
+	{
+		padding-top: 0px !important;
+	}
+
+}
 }

@@ -13,9 +13,13 @@
     max-width: 100px !important;
     width: 100px; } }
 @media screen and (max-width: 550px) {
-  header form.insert {
-    width: 110px !important;
-    max-width: 110px !important; }
+  .modal-speaker-arentr .speaker-content.pt-3 {
+    padding-top: 0px !important; }
+  .modal-speaker-arentr .container-fluid .p-3.px-4 {
+    padding-top: 5px !important; }
+
+  .modal-speaker .modal-container .modal-bg .speaker-name {
+    padding-top: 10px !important; }
 
   section.banner .banner-canvas {
     padding-left: 15px !important; }

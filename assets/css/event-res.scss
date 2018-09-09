@@ -23,18 +23,23 @@ section.banner .banner-canvas .text-title h1
 }
 
 @media screen and(max-width: 550px){
+.modal-speaker-arentr{
+	.speaker-content.pt-3
+{
+	padding-top: 0px !important;
+}
 
 
-	header form.insert
-	{
-		width:110px !important;
-	}
-	header form.insert input
-	{
-		width: 77px !important;
-		
-	}
+.container-fluid	.p-3.px-4
+{
+	padding-top: 5px !important;
+}
 
+}
+.modal-speaker .modal-container .modal-bg .speaker-name
+{
+	padding-top: 10px !important;
+}
 
 
 

@@ -124,6 +124,13 @@
     padding: 40px 0 !important; }
 
   .col-setting-5 {
-    padding-left: 30px !important; } }
+    padding-left: 30px !important; }
+
+  .modal-speaker .modal-container .modal-bg .speaker-name {
+    padding-top: 0px !important; }
+  .modal-speaker .speaker-content {
+    padding-top: 0px !important; }
+  .modal-speaker .container-fluid.p-3 {
+    padding-top: 0px !important; } }
 
 /*# sourceMappingURL=component-res.css.map */
