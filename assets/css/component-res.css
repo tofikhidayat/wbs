@@ -131,6 +131,9 @@
   .modal-speaker .speaker-content {
     padding-top: 0px !important; }
   .modal-speaker .container-fluid.p-3 {
-    padding-top: 0px !important; } }
+    padding-top: 0px !important; }
+
+  section.sponsor .sponsor-spacing .container-fluid {
+    padding-right: 0px !important; } }
 
 /*# sourceMappingURL=component-res.css.map */

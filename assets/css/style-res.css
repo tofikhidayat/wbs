@@ -239,10 +239,12 @@
     -o-overflow-x: scroll;
     -webkit-overflow-x: scroll;
     -ms-overflow-x: scroll; }
+    section.sponsor .navbar-tabs::-webkit-scrollbar {
+      width: 0px; }
     section.sponsor .navbar-tabs ul {
       min-width: 500px; }
       section.sponsor .navbar-tabs ul li {
-        width: 120px; }
+        width: 164px; }
 
   section.sponsor .list-sponsor {
     width: 50% !important;
@@ -331,6 +333,9 @@
     padding-top: 20px !important; }
 
   section.previous-event .action.mt-5.pt-5 {
-    bottom: 60px !important; } }
+    bottom: 60px !important; }
+
+  section.about, section.general, section.blog {
+    background-image: unset !important; } }
 
 /*# sourceMappingURL=style-res.css.map */
