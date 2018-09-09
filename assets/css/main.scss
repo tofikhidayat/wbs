@@ -1414,3 +1414,19 @@ footer
 	width: 100%;
 	height: auto;
 }
+
+
+@media screen and(max-width: 550px)
+{
+	header form.insert
+	{
+		width:110px !important;
+	}
+	header form.insert input
+	{
+		width: 77px !important;
+		
+	}
+
+
+}

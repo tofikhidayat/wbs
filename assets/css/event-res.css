@@ -13,6 +13,10 @@
     max-width: 100px !important;
     width: 100px; } }
 @media screen and (max-width: 550px) {
+  header form.insert {
+    width: 110px !important;
+    max-width: 110px !important; }
+
   section.banner .banner-canvas {
     padding-left: 15px !important; }
   section.banner .social-banner {

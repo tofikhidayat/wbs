@@ -398,3 +398,17 @@ min-width: 900px;
 
 
 
+
+
+@media screen and(max-width: 550px)
+{
+	header form.insert
+	{
+		width:110px !important;
+	}
+	header form.insert input
+	{
+		width: 77px !important;
+		
+	}
+}
