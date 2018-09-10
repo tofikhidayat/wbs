@@ -17,6 +17,11 @@
 
 @media screen and(max-width: 550px)
 {
+	section.banner .trescon-logo img
+	{
+		max-width: 100px !important;
+		margin-bottom: 15px !important;
+	}
 
 	section.content .day{
 		padding-bottom: 20px !important;
