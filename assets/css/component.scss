@@ -599,6 +599,15 @@ footer{
 
 
 
+///all replaced
+
+header form
+{
+	display: none !important;
+	opacity: 0 !important;
+}
+
+
 @media screen and(min-width: 1440px)
 {
 	.modal-speaker .text
