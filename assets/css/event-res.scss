@@ -180,7 +180,7 @@ section.attend-list .owl-carousel
 }
 .about
 {
-	padding-top:200px !important;
+	padding-top:95px !important;
 }
 .col-4.float-left
 {
@@ -255,5 +255,75 @@ section.subscribe-me
 .user-list .btn-carousel
 {
 	top: calc(50% + 112px) !important;
+}
+
+
+section.mogos{
+	.btn-kampre
+	{
+		top: -40px !important;
+		position: relative;
+		margin: 0 auto;
+		width: 200px !important;
+		padding-left: 50px !important;
+		padding-right: 30px;
+		left: calc(100% +  20px) !important;
+
+	}
+	.image-state
+	{
+		width: 100% !important;
+		min-width: 100%;
+		max-width: 100%;
+		flex: 0 0 100%;
+		
+			.float-left.pl-0.pl-md-3.col-8
+			{
+				.col-12.P-0.pb-2
+				{
+					padding-left: calc(50% - 50px) !important;
+					padding-top: 15px;
+
+				}
+				.float-left.pl-3
+				{
+					width: 32.33% !important;
+					max-width: 33.33%;
+					float: left !important;
+					clear: unset !important;
+					overflow: hidden;
+					padding-top: 15px !important;
+					min-width: 33.33% !important;
+				}
+			}
+		
+
+
+
+	}
+.col-12.col-md-10
+{
+	.float-left.col-4
+	{
+		clear: both;
+		width: 100%;
+		max-width: 100%;
+		flex:0 0 100%;
+		float: none !important;
+		display: flex block;
+		padding-left: calc(50% - 50px ) !important;
+		justify-content:center;
+		align-content:center;
+		align-items:center;
+		position: relative;
+		padding-right: 0px !important;
+		img{
+			margin:0 auto;
+			position: relative;
+
+		}
+	} 
+
+}
 }
 }
