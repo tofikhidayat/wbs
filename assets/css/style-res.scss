@@ -533,6 +533,66 @@ section.about , section.general , section.blog
 }
 
 
+.what-happenings
+{
+	margin-top: 70px !important;
+}
 
+section.discussion
+{
+	.col-md-6.col-12
+	{
+		padding-left: 0px !important;
+	}
+.col-12:last-child
+{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 
+}
+.card  
+{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	min-height: unset !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+}
+
+.sponsor
+{
+	.container{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+}
+
+section.sponsor .list-sponsor
+{
+	min-height: unset !important;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+section.sponsor .navbar-tabs ul{
+min-width: unset !important;
+
+	li
+{
+	width: 115px !important;
+}}
+section.sponsor .navbar-tabs ul li a strong
+{
+	font-size: 22px !important;
+}
+section.sponsor .navbar-tabs ul li a.active .desc
+{
+	font-size: 13px !important;
+}
+
+.general
+{
+	padding-top: 50px !important;
+}
 } 

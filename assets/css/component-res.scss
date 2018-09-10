@@ -1,4 +1,14 @@
 @import "_plugins/variable";
+
+.modal-speaker-arent{
+	.speaker-content{
+		.container-fluid{
+			margin-bottom: 15px;
+			height: 150px;
+			@include overflow-y(scroll !important);
+		}
+	}
+}
 @media screen and(max-width: 991px)
 {
 	.col-setting-5 
@@ -218,6 +228,24 @@ footer{
 		padding-top: 0px !important;
 	}
 
+}
+
+
+.modal-speaker img{
+			width: 100%;
+			max-height: 250px;
+			object-fit:cover;
+		object-position:top;
+		}
+.modal-speaker-arent{
+	.speaker-content{
+		
+		.container-fluid{
+			margin-bottom: 15px;
+			height: 50px;
+			@include overflow-y(scroll !important);
+		}
+	}
 }
 
 

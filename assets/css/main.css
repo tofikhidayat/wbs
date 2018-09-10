@@ -1046,7 +1046,7 @@ footer {
   width: 100%;
   height: auto; }
 
-.speaker, .general {
+.speaker, .general, .sponsor {
   padding-top: 0px !important; }
 
 section.previous-event, section.what-happenings, section.speaker-list {
@@ -1057,6 +1057,13 @@ section.previous-event, section.what-happenings, section.speaker-list {
 
 footer .navbar-brand .logo .logo-name {
   font-weight: 300 !important; }
+
+section.sponsor h1 {
+  margin-bottom: 0px !important;
+  margin-top: 5px !important; }
+
+.sponsor .years {
+  margin-bottom: 0rem !important; }
 
 @media screen and (max-width: 550px) {
   header form.insert {

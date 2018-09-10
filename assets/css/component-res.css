@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0; }
 
+.modal-speaker-arent .speaker-content .container-fluid {
+  margin-bottom: 15px;
+  height: 150px;
+  overflow-y: scroll !important;
+  -moz-overflow-y: scroll !important;
+  -o-overflow-y: scroll !important;
+  -webkit-overflow-y: scroll !important;
+  -ms-overflow-y: scroll !important; }
+
 @media screen and (max-width: 991px) {
   .col-setting-5 {
     width: 33.33%;
@@ -131,6 +140,21 @@
   .modal-speaker .speaker-content {
     padding-top: 0px !important; }
   .modal-speaker .container-fluid.p-3 {
-    padding-top: 0px !important; } }
+    padding-top: 0px !important; }
+
+  .modal-speaker img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    object-position: top; }
+
+  .modal-speaker-arent .speaker-content .container-fluid {
+    margin-bottom: 15px;
+    height: 50px;
+    overflow-y: scroll !important;
+    -moz-overflow-y: scroll !important;
+    -o-overflow-y: scroll !important;
+    -webkit-overflow-y: scroll !important;
+    -ms-overflow-y: scroll !important; } }
 
 /*# sourceMappingURL=component-res.css.map */
