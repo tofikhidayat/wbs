@@ -335,7 +335,7 @@ section.what-happenings {
   padding-bottom: 0 !important; }
 
 .sponsor {
-  padding-top: 0px !important; }
+  padding-top: 80px !important; }
 
 .explore {
   padding-top: 50px;
@@ -343,6 +343,9 @@ section.what-happenings {
 
 .maps {
   padding-bottom: 30px !important; }
+
+section.what-happenings {
+  padding-top: 50px !important; }
 
 @media screen and (max-width: 550px) {
   header form.insert {

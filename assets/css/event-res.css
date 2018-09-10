@@ -219,6 +219,11 @@
 
   section.what-happenings {
     padding-top: 0px !important;
-    margin-top: 0px !important; } }
+    margin-top: 0px !important; }
+
+  .user-list .btn-carousel {
+    padding: 5px;
+    font-size: 13px;
+    z-index: 99999; } }
 
 /*# sourceMappingURL=event-res.css.map */
