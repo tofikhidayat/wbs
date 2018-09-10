@@ -1046,6 +1046,18 @@ footer {
   width: 100%;
   height: auto; }
 
+.speaker, .general {
+  padding-top: 0px !important; }
+
+section.previous-event, section.what-happenings, section.speaker-list {
+  padding-bottom: 0px !important; }
+
+.about {
+  padding-bottom: 50px !important; }
+
+footer .navbar-brand .logo .logo-name {
+  font-weight: 300 !important; }
+
 @media screen and (max-width: 550px) {
   header form.insert {
     width: 110px !important; }

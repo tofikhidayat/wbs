@@ -206,6 +206,15 @@
     padding-right: 0px !important; }
     section.mogos .col-12.col-md-10 .float-left.col-4 img {
       margin: 0 auto;
-      position: relative; } }
+      position: relative; }
+
+  section.subscribe .canvas-bg {
+    padding-bottom: 10px !important; }
+
+  .what-happenings {
+    padding-top: 0px !important; }
+
+  .explore {
+    padding-bottom: 0px !important; } }
 
 /*# sourceMappingURL=event-res.css.map */

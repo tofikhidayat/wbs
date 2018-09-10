@@ -215,7 +215,7 @@
         margin-top: 0px !important; }
 
   section.what-happenings {
-    padding-top: 100px !important; }
+    padding-top: 0px !important; }
 
   section.what-happenings .event-code-list {
     width: 100% !important;
@@ -336,6 +336,9 @@
     bottom: 60px !important; }
 
   section.about, section.general, section.blog {
-    background-image: unset !important; } }
+    background-image: unset !important; }
+
+  .speaker {
+    padding-top: 0px !important; } }
 
 /*# sourceMappingURL=style-res.css.map */

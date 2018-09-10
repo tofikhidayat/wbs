@@ -23,6 +23,25 @@ section.banner .banner-canvas .text-title h1
 }
 
 @media screen and(max-width: 550px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .modal-speaker-arentr{
 	.speaker-content.pt-3
 {
@@ -325,5 +344,19 @@ section.mogos{
 	} 
 
 }
+}
+
+section.subscribe .canvas-bg
+{
+	padding-bottom: 10px !important;
+}
+
+.what-happenings
+{
+	padding-top: 0px !important;
+}
+.explore 
+{
+	padding-bottom: 0px !important;
 }
 }

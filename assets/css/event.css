@@ -318,11 +318,40 @@ section.maps .fot {
   text-align: center;
   color: #384670; }
 
+section.subscribe .canvas-bg {
+  padding: 50px 0; }
+
+section.map {
+  padding-bottom: 0px !important; }
+
+section.what-happenings {
+  padding-top: 80px !important;
+  padding-bottom: 50px !important; }
+
+.speaker-list {
+  padding-top: 30px !important; }
+
+.user-list {
+  padding-bottom: 0 !important; }
+
+.sponsor {
+  padding-top: 0px !important; }
+
+.explore {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.maps {
+  padding-bottom: 30px !important; }
+
 @media screen and (max-width: 550px) {
   header form.insert {
     width: 110px !important; }
 
   header form.insert input {
-    width: 77px !important; } }
+    width: 77px !important; }
+
+  section.buy-ticket .canvas {
+    padding-bottom: 40px !important; } }
 
 /*# sourceMappingURL=event.css.map */
