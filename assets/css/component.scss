@@ -608,6 +608,11 @@ header form
 }
 
 
+.sponsor .navbar-tabs
+{
+	display: none !important;
+}
+
 @media screen and(min-width: 1440px)
 {
 	.modal-speaker .text

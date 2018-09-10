@@ -467,6 +467,9 @@ header form {
   display: none !important;
   opacity: 0 !important; }
 
+.sponsor .navbar-tabs {
+  display: none !important; }
+
 @media screen and (min-width: 1440px) {
   .modal-speaker .text {
     font-size: 16px !important; }
