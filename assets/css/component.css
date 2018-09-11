@@ -326,6 +326,7 @@ footer .navbar-brand .logo-list {
   #slider-event .item .ul {
     min-height: 400px;
     width: 100%;
+    object-position: 0px -50px;
     object-fit: cover; }
 
 .dropdown-lang {
@@ -478,11 +479,11 @@ header form {
   display: none !important; }
 
 section.previous-event .owl-item img:not(.ul) {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%); }
+  -webkit-filter: grayscale(100%) !important;
+  -moz-filter: grayscale(100%) !important;
+  -ms-filter: grayscale(100%) !important;
+  -o-filter: grayscale(100%) !important;
+  filter: grayscale(100%) !important; }
 
 @media screen and (min-width: 1440px) {
   .modal-speaker .text {

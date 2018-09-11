@@ -438,6 +438,7 @@ footer{
 		.ul{
 			min-height: 400px;
 			width: 100%;
+			object-position:0px -50px;
 			object-fit:cover;
 		}
 	}
@@ -635,7 +636,7 @@ section.previous-event
 	{
 		img:not(.ul)
 		{
-			@include filter(grayscale(100%))
+			@include filter(grayscale(100%) !important)
 		}
 	}
 }
