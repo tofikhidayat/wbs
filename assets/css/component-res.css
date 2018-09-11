@@ -155,6 +155,9 @@
     -moz-overflow-y: scroll !important;
     -o-overflow-y: scroll !important;
     -webkit-overflow-y: scroll !important;
-    -ms-overflow-y: scroll !important; } }
+    -ms-overflow-y: scroll !important; }
+
+  .modal-speaker-arent.modal-event .speaker-content .container-fluid {
+    height: 150px !important; } }
 
 /*# sourceMappingURL=component-res.css.map */

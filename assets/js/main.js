@@ -191,6 +191,138 @@ $(document).ready(function(){
 });
 
 
+
+
+//event listr
+
+
+jQuery(document).ready(function($) {
+  for (var i =0 ; i<eventdata.length; i++) {
+    
+  
+  var temp1 = "<div class='col-md-3 col-12 event-code-list' data-aos='fade-up' data-aos-delay='200' data-id='"+i+"'> ";
+  var temp2 = "<img src='assets/images/"+eventdata[i].image+"'>";
+  var temp3 = "<div class='intruction'> <div class='desc'> <p>" + eventdata[i].name;
+  var temp4 = "</p> </div> <div class='foot'> <a href='' class='btn btn-primary btn-read-more-event btn-sm event-static btn-select rounded-0 border-0 px-3'><span class='float-left'> Read more</span><span class='float-left triangle ml-3 '></span></a> </div> </div> </div>"
+  var template = temp1+temp2+temp3+temp4;
+  $("#event-data").append(template);
+
+
+}
+
+
+
+
+
+});
+
+
+
+$(document).on('click', '.event-static', function(event) {
+    event.preventDefault();
+    var id = parseInt($(this).closest('.event-code-list').attr('data-id'));
+    console.log(id)
+    $('.modal-event').fadeIn('fast');
+    $(".speaker-popup-image").attr('src','assets/images/'+eventdata[id].image)
+    $("#value-name").text(eventdata[id].name);
+    $(".modal-speaker p.text").text(eventdata[0].content);
+    $('.modal-speaker-arent').attr('data-id',id);
+
+
+});
+
+
+$(document).on('click', '#close-speaker , .modal-after', function(event) {
+    event.preventDefault();
+    $(this).closest('.modal-speaker-arent').fadeOut('fast');
+   
+
+});
+
+
+
+$(document).on('click', '.modal-after', function(event) {
+    event.preventDefault();
+    $(this).closest('.modal-speaker-arent').fadeOut('fast');
+   
+
+});
+
+
+
+
+$(document).on('click', '.speaker-controll.event', function(event) {
+    event.preventDefault();
+     var id = parseInt($(this).closest('.modal-speaker-arent').attr('data-id'));
+    var go = $(this).attr('go');
+    $(".modal-bg-for-modal").fadeOut(10, function() {
+        
+    });
+
+
+    if (go == "next-event") {
+       if (id == (eventdata.length - 1)) {
+        
+            $(".speaker-popup-image").attr('src','assets/images/'+eventdata[0].image)
+           $("#value-name").text(eventdata[0].name);
+            $(".modal-speaker p.text").text(eventdata[0].content);
+            $('.modal-speaker-arent').attr('data-id',eventdata.length - 1);
+       }
+       else
+       {
+         var id = id + 1;
+          $(".speaker-popup-image").attr('src','assets/images/'+eventdata[id].image)
+  $("#value-name").text(eventdata[id].name);
+    $(".modal-speaker p.text").text(eventdata[id].content);
+    $('.modal-speaker-arent').attr('data-id',id);
+       }
+         $(".speaker-popup-image").attr('src','assets/images/'+eventdata[id].image)
+     $("#value-name").text(eventdata[id].name);
+    $(".modal-speaker p.text").text(eventdata[id].content);
+    $('.modal-speaker-arent').attr('data-id',id);
+    }
+    else{
+         if (id == 0) {
+        
+            $(".speaker-popup-image").attr('src','assets/images/'+eventdata[eventdata.length - 1].image)
+         $("#value-name").text(eventdata[eventdata.length - 1].name);
+  
+            $(".modal-speaker p.text").text(eventdata[eventdata.length - 1].content);
+            $('.modal-speaker-arent').attr('data-id',eventdata.length - 1);
+       }
+       else
+       {
+         var id = id - 1;
+          $(".speaker-popup-image").attr('src','assets/images/'+eventdata[id].image)
+   $("#value-name").text(eventdata[id].name);
+
+    $(".modal-speaker p.text").text(eventdata[id].content);
+    $('.modal-speaker-arent').attr('data-id',id);
+       }
+         $(".speaker-popup-image").attr('src','assets/images/'+eventdata[id].image)
+     $("#value-name").text(eventdata[id].name);
+    $(".modal-speaker p.text").text(eventdata[id].content);
+    $('.modal-speaker-arent').attr('data-id',id);
+    }
+    
+    $(".modal-bg-for-modal").fadeIn('fast');
+    
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //speaker-content
 
 jQuery(document).ready(function($) {
@@ -237,7 +369,7 @@ for (var i = 0; i < 8; i++) {
 $(document).on('click', '.user-static', function(event) {
     event.preventDefault();
     var id = parseInt($(this).closest('.speaker-container').attr('data-id'));
-    $('.modal-speaker-arent').fadeIn('fast');
+    $('.modal-speaker-arent:not(.modal-event)').fadeIn('fast');
     $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[id].image)
     $(".speaker-name strong").text(speaker[id].name);
     $(".speaker-status p").text(speaker[id].status);
@@ -268,7 +400,7 @@ $(document).on('click', '.modal-after', function(event) {
 
 
 
-$(document).on('click', '.speaker-controll', function(event) {
+$(document).on('click', '.speaker-controll:not(.event)', function(event) {
     event.preventDefault();
      var id = parseInt($(this).closest('.modal-speaker-arent').attr('data-id'));
     var go = $(this).attr('go');
