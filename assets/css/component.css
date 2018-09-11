@@ -31,6 +31,8 @@
 
 .btn-gradient {
   background-image: linear-gradient(248deg, #0b0a34, #4e49cb); }
+  .btn-gradient:focus, .btn-gradient:active {
+    background-image: linear-gradient(248deg, #0b0a34, #4e49cb) !important; }
 
 .text-to-icon {
   padding-bottom: 0em !important;
@@ -71,8 +73,8 @@
   background-image: linear-gradient(89deg, #4e49cb, #1d1b61);
   box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
   color: #fff; }
-  .btn-select:hover {
-    background-image: linear-gradient(89deg, #3F3CA6, #1A1854);
+  .btn-select:hover, .btn-select:focus, .btn-select:active {
+    background-image: linear-gradient(89deg, #3F3CA6, #1A1854) !important;
     box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
     color: #fff; }
 
@@ -81,22 +83,27 @@
   box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
   color: #1d1b61;
   border: 0; }
-  .btn-select-back:hover {
-    background-image: linear-gradient(89deg, #ffffff, #D7D5E6);
+  .btn-select-back:hover, .btn-select-back:focus, .btn-select-back:active {
+    background-image: linear-gradient(89deg, #ffffff, #D7D5E6) !important;
     box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
     color: #1d1b61;
     border: 0; }
 
 .btn-select-back-rotate {
-  background-image: linear-gradient(89deg, #e7e6f6, #ffffff);
+  background-image: linear-gradient(89deg, #e7e6f6, #ffffff) !important;
   box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
   color: #1d1b61;
   border: 0; }
-  .btn-select-back-rotate:hover {
-    background-image: linear-gradient(89deg, #D7D5E6, #FFFFFF);
+  .btn-select-back-rotate:hover, .btn-select-back-rotate:focus, .btn-select-back-rotate:active {
+    background-image: linear-gradient(89deg, #D7D5E6, #FFFFFF) !important;
     box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
     color: #1d1b61;
     border: 0; }
+
+.btn:not(.btn-select-back-rotate, .btn-select-back):hover, .btn:not(.btn-select-back-rotate, .btn-select-back):focus {
+  background-image: linear-gradient(89deg, #3F3CA6, #1A1854) !important;
+  box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.4);
+  color: #fff; }
 
 .bg-primary {
   background-color: #0B0A34 !important; }
@@ -469,6 +476,13 @@ header form {
 
 .sponsor .navbar-tabs {
   display: none !important; }
+
+section.previous-event .owl-item img:not(.ul) {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%); }
 
 @media screen and (min-width: 1440px) {
   .modal-speaker .text {
