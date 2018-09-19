@@ -245,6 +245,7 @@ $(document).on('click', '.user-static', function(event) {
     $('.popup-speaker-parent').attr('data-id',id);
 
 
+
 });
 
 
@@ -282,11 +283,11 @@ $(document).on('click', '#speaker-next', function(event) {
             $("#speaker-name").text(speaker[1].name);
             $("#speaker-status").text(speaker[1].status);
             $("#speaker-detail").text(speaker[1].content);
-            $('.popup-speaker-parent').attr('data-id',speaker.length + 1);
+            $('.popup-speaker-parent').attr('data-id',1);
        }
        else
        {
-         var id = def+ 1;
+         var id = def + 1;
           $("#speaker-profile").attr('src','assets/images/Series Speakers/'+speaker[id].image)
     $("#speaker-name").text(speaker[id].name);
     $("#speaker-status").text(speaker[id].status);

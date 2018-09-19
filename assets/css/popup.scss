@@ -99,9 +99,8 @@ p{
 .text-data
 {
 	overflow-x:hidden;
-	@include overflow-y(scroll);
-	height: auto;
-	max-height: calc(100vh - 100px);
+	@include overflow-y(scroll);	
+	height: calc(100vh - 100px);
 }
 .over-text
 {
@@ -145,9 +144,18 @@ p{
 }
 
 @media screen and(max-width: 768px){
+	.popup-speaker-parent{
+		.over-text
+	{
+		overflow: visible;
+
+	}
+	}
 	.button-to-redi
 	{
 		height: auto;
+		height: 55px;
+		font-size: 24px;
 		&.left{
 			left: 0;
 		}
@@ -155,6 +163,10 @@ p{
 			left: 110px;
 		}
 
+	}
+	.popup-speaker-parent .for-button button
+	{
+		font-size: 50px;
 	}
 
 	.popup-speaker-parent .image-area img
@@ -176,7 +188,9 @@ p{
 	{
 		@include overflow-y(visible);
 		padding-right: 20px;
-		max-height: auto;
+		max-height: unset !important;
+		height: auto;
+		
 	}
 	.over-data-button
 	{
