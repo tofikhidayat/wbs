@@ -1,5 +1,8 @@
 @import "_plugins/variable";
-
+.nav-item.search 
+{
+	display: none !important;
+}
 .modal-speaker-arent{
 	.speaker-content{
 		.container-fluid{

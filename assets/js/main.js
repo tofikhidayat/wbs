@@ -237,12 +237,12 @@ for (var i = 0; i < 8; i++) {
 $(document).on('click', '.user-static', function(event) {
     event.preventDefault();
     var id = parseInt($(this).closest('.speaker-container').attr('data-id'));
-    $('.modal-speaker-arent').fadeIn('fast');
-    $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[id].image)
-    $(".speaker-name strong").text(speaker[id].name);
-    $(".speaker-status p").text(speaker[id].status);
-    $(".modal-speaker p.text").text(speaker[id].content);
-    $('.modal-speaker-arent').attr('data-id',id);
+    $('.popup-speaker-parent').fadeIn('fast');
+    $("#speaker-profile").attr('src','assets/images/Series Speakers/'+speaker[id].image)
+    $("#speaker-name").text(speaker[id].name);
+    $("#speaker-status").text(speaker[id].status);
+    $("#speaker-detail").text(speaker[id].content);
+    $('.popup-speaker-parent').attr('data-id',id);
 
 
 });
@@ -250,7 +250,7 @@ $(document).on('click', '.user-static', function(event) {
 
 $(document).on('click', '#close-speaker , .modal-after', function(event) {
     event.preventDefault();
-    $(this).closest('.modal-speaker-arent').fadeOut('fast');
+    $(this).closest('.popup-speaker-parent').fadeOut('fast');
    
 
 });
@@ -268,67 +268,87 @@ $(document).on('click', '.modal-after', function(event) {
 
 
 
+
+
+
+$(document).on('click', '#speaker-next', function(event) {
+      event.preventDefault();
+      var def= parseInt($(".popup-speaker-parent").attr('data-id'));
+          $(".popup-speaker-parent").fadeOut(10, function() {
+
+      if (def == (speaker.length - 1)) {
+        
+            $("#speaker-profile").attr('src','assets/images/Series Speakers/'+speaker[1].image)
+            $("#speaker-name").text(speaker[1].name);
+            $("#speaker-status").text(speaker[1].status);
+            $("#speaker-detail").text(speaker[1].content);
+            $('.popup-speaker-parent').attr('data-id',speaker.length + 1);
+       }
+       else
+       {
+         var id = def+ 1;
+          $("#speaker-profile").attr('src','assets/images/Series Speakers/'+speaker[id].image)
+    $("#speaker-name").text(speaker[id].name);
+    $("#speaker-status").text(speaker[id].status);
+    $("#speaker-detail").text(speaker[id].content);
+    $('.popup-speaker-parent').attr('data-id',id);
+       }
+        
+    
+
+
+    });
+
+          $(".popup-speaker-parent").fadeIn('fast');
+          });
+
+
+
+
+$(document).on('click', '#speaker-prev', function(event) {
+      event.preventDefault();
+      var def= parseInt($(".popup-speaker-parent").attr('data-id'));
+          $(".popup-speaker-parent").fadeOut(10, function() {
+
+     if (def == 0){
+
+        
+            $("#speaker-profile").attr('src','assets/images/Series Speakers/'+speaker[speaker.length - 1].image)
+            $("#speaker-name").text(speaker[speaker.length - 1].name);
+            $("#speaker-status").text(speaker[speaker.length - 1].status);
+            $("#speaker-detail").text(speaker[speaker.length - 1].content);
+            $('.popup-speaker-parent').attr('data-id',speaker.length - 1);
+       }
+       else
+       {
+         var id = def - 1;
+          $("#speaker-profile").attr('src','assets/images/Series Speakers/'+speaker[id].image)
+    $("#speaker-name").text(speaker[id].name);
+    $("#speaker-status").text(speaker[id].status);
+    $("#speaker-detail").text(speaker[id].content);
+    $('.popup-speaker-parent').attr('data-id',id);
+       }
+        
+    
+
+
+    });
+
+          $(".popup-speaker-parent").fadeIn('fast');
+          });
+
+
+
+
+
+
 $(document).on('click', '.speaker-controll', function(event) {
     event.preventDefault();
      var id = parseInt($(this).closest('.modal-speaker-arent').attr('data-id'));
     var go = $(this).attr('go');
-    $(".modal-bg-for-modal").fadeOut(10, function() {
+
         
     });
-
-
-    if (go == "next") {
-       if (id == (speaker.length - 1)) {
-        
-            $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[0].image)
-            $(".speaker-name strong").text(speaker[0].name);
-            $(".speaker-status p").text(speaker[0].status);
-            $(".modal-speaker p.text").text(speaker[0].content);
-            $('.modal-speaker-arent').attr('data-id',speaker.length - 1);
-       }
-       else
-       {
-         var id = id + 1;
-          $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[id].image)
-    $(".speaker-name strong").text(speaker[id].name);
-    $(".speaker-status p").text(speaker[id].status);
-    $(".modal-speaker p.text").text(speaker[id].content);
-    $('.modal-speaker-arent').attr('data-id',id);
-       }
-         $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[id].image)
-    $(".speaker-name strong").text(speaker[id].name);
-    $(".speaker-status p").text(speaker[id].status);
-    $(".modal-speaker p.text").text(speaker[id].content);
-    $('.modal-speaker-arent').attr('data-id',id);
-    }
-    else{
-         if (id == 0) {
-        
-            $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[speaker.length - 1].image)
-            $(".speaker-name strong").text(speaker[speaker.length - 1].name);
-            $(".speaker-status p").text(speaker[speaker.length - 1].status);
-            $(".modal-speaker p.text").text(speaker[speaker.length - 1].content);
-            $('.modal-speaker-arent').attr('data-id',speaker.length - 1);
-       }
-       else
-       {
-         var id = id - 1;
-          $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[id].image)
-    $(".speaker-name strong").text(speaker[id].name);
-    $(".speaker-status p").text(speaker[id].status);
-    $(".modal-speaker p.text").text(speaker[id].content);
-    $('.modal-speaker-arent').attr('data-id',id);
-       }
-         $(".speaker-popup-image").attr('src','assets/images/Series Speakers/'+speaker[id].image)
-    $(".speaker-name strong").text(speaker[id].name);
-    $(".speaker-status p").text(speaker[id].status);
-    $(".modal-speaker p.text").text(speaker[id].content);
-    $('.modal-speaker-arent').attr('data-id',id);
-    }
-    
-    $(".modal-bg-for-modal").fadeIn('fast');
-    
-});
 
 
 
@@ -431,5 +451,25 @@ $(".load-more").click(function(event) {
     $(this).attr('show', 'true');
 
   }
+
+});
+
+
+$(document).on('change', 'input.other', function(event) {
+  if ($(this).prop('checked') ==  true) {
+    $($(this).attr('for')).removeClass('d-none');
+  }
+  else
+  {
+    $($(this).attr('for')).addClass('d-none');
+  }
+});
+
+
+$("#form-get").submit(function(event) {
+  event.preventDefault;
+
+
+return false;
 
 });

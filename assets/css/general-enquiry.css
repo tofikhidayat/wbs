@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+section.banner {
+  background-image: url("../images/banner-general.png");
+  min-height: 400px;
+  padding-bottom: 70px !important; }
+  section.banner p {
+    font-size: 20px; }
+
+.alert-form {
+  opacity: 0; }
+
+section.form-section {
+  margin-top: -170px; }
+  section.form-section label.for-input {
+    width: 100%; }
+    section.form-section label.for-input input {
+      display: none; }
+      section.form-section label.for-input input:checked + span i {
+        opacity: 1; }
+    section.form-section label.for-input span {
+      border: solid 1px #dedae2;
+      border-radius: 5px;
+      height: 25px;
+      width: 25px;
+      overflow: hidden;
+      float: left;
+      display: block; }
+      section.form-section label.for-input span i {
+        font-size: 18px;
+        position: relative;
+        top: -2px;
+        left: 4px;
+        clear: both;
+        font-weight: bold;
+        color: #272648;
+        opacity: 0; }
+    section.form-section label.for-input p {
+      float: left;
+      width: calc(100% - 25px);
+      padding-left: 10px;
+      font-size: 16px;
+      color: #7f7e9b;
+      font-family: ninbulsanreg;
+      padding-top: 1px; }
+  section.form-section label {
+    font-family: ninbulsanbold;
+    font-size: 18px; }
+    section.form-section label span {
+      color: #e12021; }
+  section.form-section .form-group {
+    padding: 15px; }
+  section.form-section .form-el {
+    background: #fff;
+    box-shadow: 0 6px 50px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 6px 50px 1px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 6px 50px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 6px 50px 1px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 6px 50px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; }
+    section.form-section .form-el input, section.form-section .form-el select {
+      font-size: 16px;
+      font-family: ninbulsanreg;
+      padding: 10px 10px;
+      border-radius: 2px !important;
+      height: auto;
+      border-color: #dedae2 !important;
+      border-width: 1px; }
+    section.form-section .form-el select {
+      height: 45px !important; }
+  section.form-section .by-form .name {
+    font-size: 16px;
+    color: #272648;
+    font-family: ninbulsanbold; }
+  section.form-section .by-form .desc {
+    color: #8d97b5;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: ninbulsanreg; }
+
+/*# sourceMappingURL=general-enquiry.css.map */

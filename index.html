@@ -16,6 +16,7 @@
       <link rel="stylesheet" type="text/css" href="./assets/css/component.css">
       <link rel="stylesheet" type="text/css" href="./assets/css/component-res.css">
       <link rel="stylesheet" type="text/css" href="./assets/css/style-res.css">
+       <link rel="stylesheet" type="text/css" href="./assets/css/popup.css">
       <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.3/aos.css">
    </head>
@@ -2076,7 +2077,8 @@
             </div>
          </div>
          <div class="col-12 P-0 clear-fix pt-5">
-            <button class="btn btn-primary btn-lg btn-select rounded-0 border-0 btn-custom mx-auto my-0 clear-fix go " href="#subscribe">ENTER INFORMATION</button>
+            
+            <a class="btn btn-primary btn-lg btn-select rounded-0 border-0 btn-custom mx-auto my-0 clear-fix position-relative  " href="generalenquiry.html">ENTER INFORMATION</a>
          </div>
       </section>
       <section class="subscribe" id="subscribe">
@@ -2331,45 +2333,54 @@
             </div>
          </div>
       </footer>
-      <div class="modal-speaker-arent modal-speaker ">
-         <div class="container">
-            <button type="button " class="speaker-controll prev pointer" go="prev" >
-            <i class=" fa fa-angle-left"></i>
-            </button>
-            <button type="button " class="speaker-controll next pointer" go="next" >
-            <i class=" fa fa-angle-right"></i>
-            </button>
-            <div class="modal-container">
-               <div class="modal-bg modal-bg-for-modal">
-                  <div class="modal-head clearfix">
-                     <div class="col-12  pr-3 pt-2">
-                        <button type="button" id="close-speaker" class="float-right btn-undo"><i class="fa fa-times "></i></button>
-                     </div>
-                     <div class="col-md-4 float-left pl-0 pt-0 position-relative" style="margin-top: -8px;">
-                        <img src="assets/images/Series Speakers/Charles-Hoskinson.jpg" class="border-0 speaker-popup-image" alt="" class="" >
-                        <a href="#" title="" class="btn btn-gradient">
-                        <img src="assets/images/linkedin-logo.svg" alt="">
-                        </a>
-                     </div>
-                     <div class="col-md-8 float-left pt-3">
-                        <div class="speaker-name">
-                           <span><strong></strong></span>
-                        </div>
-                        <div class="speaker-status">
-                           <p></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="speaker-content pt-3">
-                     <div class="container-fluid p-3 px-4">
-                        <p class="text">
-                        </p>
-                     </div>
-                  </div>
+
+
+        <div class=" popup-speaker-parent ">
+           <div class="speaker-torent">
+         <div class="popup-container">
+           <div class="col-12 p-0 row pr-0 ml-1">
+              <div class="col-lg-4 col-sm-12 col-12 pl-0 image-over-data ">
+                <div class="image-area">
+                    <img src="" id="speaker-profile">
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-12  col-lg-8   position-md-relative pr-0  pl-0 pl-md-3 over-data-button">
+               <div class="for-button">
+                  <button class="close-popup border-0" id="close-speaker">
+                     &times;
+                  </button>
                </div>
-            </div>
+                 <div class="text-data py-4 pl-4  pr-4">
+                 <div class="over-text">
+                    
+                    <h1 class="text-left speaker-name text-uppercase mb-0" id="speaker-name">mamam ku sia</h1> 
+                       <h2 class="text-left speaker-status text-uppercase" id="speaker-status">founded mama .com</h2>
+                       <div class="linear-after mt-4"></div>
+
+                       <div class="sub-text py-4">
+                          <p id="speaker-detail">
+                          
+                          </p>
+                       </div>
+                 </div>
+              </div>
+                 </div>
+           </div>  
+         
+             <div class="button-to-redi left">
+            <button id="speaker-prev">
+               <i class=" fa fa-angle-left"></i>
+            </button>
          </div>
-         <div class="modal-after"></div>
+           <div class="button-to-redi right">
+            <button id="speaker-next">
+               <i class=" fa fa-angle-right"></i>
+            </button>
+         </div>
+         </div>
+
+        </div>
       </div>
    </body>
    <script type="text/javascript" src="./assets/vendor/jquery/jquery.js"></script>

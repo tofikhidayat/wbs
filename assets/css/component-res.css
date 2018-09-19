@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+.nav-item.search {
+  display: none !important; }
+
 .modal-speaker-arent .speaker-content .container-fluid {
   margin-bottom: 15px;
   height: 150px;
